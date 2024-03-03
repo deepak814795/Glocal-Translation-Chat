@@ -1,4 +1,4 @@
-# GLOCAL- A SaaS Chat App with Real-Time Translation
+# GLOCAL- AI SaaS Chat App with Real-Time Translation
 ### Live Link - [https://glocal-chat-deepak-kushwaha.vercel.app/](https://glocal-chat-deepak-kushwaha.vercel.app/)
 
 ## Overview
@@ -10,12 +10,17 @@ Welcome to our SaaS chat app developed using Next.js and TypeScript, bringing gl
 There are over 7,000 languages spoken today but despite the diversity of languages, communication barriers continue to limit our ability to connect and understand each other.This is especially true in a globalized world where people are constantly travelling and connecting with others from different parts of the world.In fact, language barriers are often cited as a major hindrance to international trade and diplomacy. <br/> <br/> **Problems like this gave birth to GLOCAL - A TRANSLATION and also a CHAT app**.</span><br/> <br/>Glocal is a translation and chat app that helps you translate your native language into any other language in the world with relative ease.It also helps to communicate with anyone, anywhere in the world with a different language. When you receive a message in any language, it automatically translates to your chosen language. Similarly, when you send a message in any language to another person, it is converted to their preferred language. This two-way translation not only ensures seamless conversation but also eliminates the need for a common medium language.
 
 ## Techstack Used
- ***Next Js / React Js***
- ***Typescript***
- ***Framer Motion***
- ***Google Cloud AI Service***
- ***Zustand***
- ***Firebase / Firestore***
+
+
+- [Next.js](https://nextjs.org/) - The React framework for building web applications.
+- [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript.
+- [Framer Motion](https://www.framer.com/motion/) - A library for creating smooth animations in React applications.
+- [Google Cloud Platform](https://cloud.google.com/) - A suite of cloud computing services provided by Google.
+- [Artificial Intelligence](https://cloud.google.com/translate) - Google Cloud AI for language translation
+- [Firebase](https://firebase.google.com/) & [Firestore](https://firebase.google.com/docs/firestore) - Firebase is a mobile and web application development platform. Firestore is a NoSQL cloud database.
+- [Stripe](https://stripe.com/) - A platform for online payment processing.
+- [Zustand](https://zustand.surge.sh/) - A small, fast, and scalable state management library for React.
 
 ## Application Workflow
 
