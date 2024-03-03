@@ -29,7 +29,7 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 ## Some Screenshots
 
 ### ***Homepage***
-![Screenshot_9-2-2024_15616_glocal-saas-deepak-kushwaha vercel app-overlay-overlay-overlay](https://github.com/deepak814795/Glocal/assets/91387970/e7048741-4bf6-478f-8516-2613bffb4c13)
+![Screenshot_4-3-2024_2234_glocal-chat-deepak-kushwaha vercel app-overlay-overlay-overlay](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/6c969562-5f8a-4bbd-a45d-f2595250b0c9)
 
 ### ***Pricing Page***
 
