@@ -34,7 +34,7 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 ### ***Pricing Page***
 
 ### ***Free User has access to only free features and has to pay to unlock all features.***
- ![Screenshot_4-3-2024_05940_glocal-saas-deepak-kushwaha vercel app](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/b18047ed-1f5f-4f3f-b19a-5de720a712c3)
+![Screenshot_4-3-2024_1616_glocal-chat-deepak-kushwaha vercel app](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/c34b4fe0-de18-4d80-baea-21b1a7887aa1)
 
 
 ### ***PRO vs FREE User***
