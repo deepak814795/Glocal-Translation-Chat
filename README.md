@@ -58,7 +58,8 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
  PinCode: 8010   
  City: Zurich**
  
- ![Screenshot (889)](https://github.com/deepak814795/saas-app-chat/assets/91387970/2fe99f24-8b22-44d1-bcae-c41b27108048)
+ ![Screenshot_4-3-2024_1616_glocal-chat-deepak-kushwaha vercel app](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/0eec6770-0e02-4162-8c6e-2cd69dad6129)
+
 
 ### ***Add user to chat and get a sharable link***
  ![Screenshot (891)](https://github.com/deepak814795/saas-app-chat/assets/91387970/45716422-81c2-4a73-a873-f77e9962b910)
