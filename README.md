@@ -1,5 +1,5 @@
 # GLOCAL- A SaaS Chat App with Real-Time Translation
-### Live Link - [https://glocal-saas-deepak-kushwaha.vercel.app/](https://glocal-saas-deepak-kushwaha.vercel.app/)
+### Live Link - [https://glocal-chat-deepak-kushwaha.vercel.app/](https://glocal-chat-deepak-kushwaha.vercel.app/)
 
 ## Overview
 
