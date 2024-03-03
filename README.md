@@ -10,9 +10,12 @@ Welcome to our SaaS chat app developed using Next.js and TypeScript, bringing gl
 There are over 7,000 languages spoken today but despite the diversity of languages, communication barriers continue to limit our ability to connect and understand each other.This is especially true in a globalized world where people are constantly travelling and connecting with others from different parts of the world.In fact, language barriers are often cited as a major hindrance to international trade and diplomacy. <br/> <br/> **Problems like this gave birth to GLOCAL - A TRANSLATION and also a CHAT app**.</span><br/> <br/>Glocal is a translation and chat app that helps you translate your native language into any other language in the world with relative ease.It also helps to communicate with anyone, anywhere in the world with a different language. When you receive a message in any language, it automatically translates to your chosen language. Similarly, when you send a message in any language to another person, it is converted to their preferred language. This two-way translation not only ensures seamless conversation but also eliminates the need for a common medium language.
 
 ## Techstack Used
-
-### ***Next Js*** ### ***React Js*** ### ***Typescript*** ### ***Framer Motion*** ### ***Google Cloud AI Service*** ### ***Zustand*** ### ***Firebase / Firestore***
-
+ ***Next Js / React Js***
+ ***Typescript***
+ ***Framer Motion***
+ ***Google Cloud AI Service***
+ ***Zustand***
+ ***Firebase / Firestore***
 
 ## Application Workflow
 
