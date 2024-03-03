@@ -11,13 +11,8 @@ There are over 7,000 languages spoken today but despite the diversity of languag
 
 ## Techstack Used
 
-### ***Next Js***
-### ***React Js***
-### ***Typescript***
-### ***Framer Motion***
-### ***Google Cloud AI Service***
-### ***Zustand***
-### ***Firebase / Firestore***
+### ***Next Js*** ### ***React Js*** ### ***Typescript*** ### ***Framer Motion*** ### ***Google Cloud AI Service*** ### ***Zustand*** ### ***Firebase / Firestore***
+
 
 ## Application Workflow
 
