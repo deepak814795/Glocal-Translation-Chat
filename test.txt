@@ -1,0 +1,1180 @@
+  return (
+        <section className="bg-blue-50 dark:bg-slate-800" id="contact">
+          <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+            <div className="mb-4">
+              <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
+                <p className="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">
+                  Contact
+                </p>
+                <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+                  Get in Touch
+                </h2>
+                <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">In hac habitasse platea
+                  dictumst
+                </p>
+              </div>
+            </div>
+            <div className="flex items-stretch justify-center">
+              <div className="grid md:grid-cols-2">
+                <div className="h-full pr-6">
+                  <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
+                    Class aptent taciti sociosqu ad
+                    litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque
+                    sagittis ante, ac tincidunt sem venenatis ut.
+                  </p>
+                  <ul className="mb-6 md:mb-0">
+                    <li className="flex">
+                      <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+                          <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                          <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div className="ml-4 mb-4">
+                        <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
+                        </h3>
+                        <p className="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
+                        <p className="text-gray-600 dark:text-slate-400">New York, EEUU</p>
+                      </div>
+                    </li>
+                    <li className="flex">
+                      <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+                          <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+                          </path>
+                          <path d="M15 7a2 2 0 0 1 2 2" />
+                          <path d="M15 3a6 6 0 0 1 6 6" />
+                        </svg>
+                      </div>
+                      <div className="ml-4 mb-4">
+                        <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
+                        </h3>
+                        <p className="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
+                        <p className="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                      </div>
+                    </li>
+                    <li className="flex">
+                      <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6">
+                          <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                          <path d="M12 7v5l3 3" />
+                        </svg>
+                      </div>
+                      <div className="ml-4 mb-4">
+                        <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
+                          hours</h3>
+                        <p className="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
+                        <p className="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
+                  <h2 className="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
+                  <form id="contactForm">
+                    <div className="mb-6">
+                      <div className="mx-0 mb-1 sm:mb-4">
+                        <div className="mx-0 mb-1 sm:mb-4">
+                          <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider" /><input type="text" id="name" autoComplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" />
+                        </div>
+                        <div className="mx-0 mb-1 sm:mb-4">
+                          <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider" /><input type="email" id="email" autoComplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" />
+                        </div>
+                      </div>
+                      <div className="mx-0 mb-1 sm:mb-4">
+                        <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider" /><textarea id="textarea" name="textarea" cols={30} rows={5} placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" defaultValue={""} />
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <button type="submit" className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      );
+
+
+
+
+
+      picture
+
+       return (
+        <section className="min-h-screen bg-cover " style={{backgroundImage: 'url("https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")'}}>
+          <div className="flex flex-col min-h-screen bg-black/60">
+            <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
+              <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
+                <div className="text-white lg:w-1/2 lg:mx-6">
+                  <h1 className="text-2xl font-semibold capitalize lg:text-3xl">Ultimate design solution</h1>
+                  <p className="max-w-xl mt-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quo
+                    aliquid molestiae hic incidunt beatae placeat accusantium! Alias ex quisquam ab tempora. Ratione
+                    autem doloremque ducimus numquam doloribus, error sed.
+                  </p>
+                  <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                    get in touch
+                  </button>
+                  <div className="mt-6 md:mt-8">
+                    <h3 className="text-gray-300 ">Follow us</h3>
+                    <div className="flex mt-4 -mx-1.5 ">
+                      <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                        <svg className="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                        </svg>
+                      </a>
+                      <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                          <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                          <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                        </svg>
+                      </a>
+                      <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
+                        </svg>
+                      </a>
+                      <a className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-8 lg:w-1/2 lg:mx-6">
+                  <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                    <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">Contact form</h1>
+                    <p className="mt-2 text-gray-500 dark:text-gray-400">
+                      Ask us everything and we would love
+                      to hear from you
+                    </p>
+                    <form className="mt-6">
+                      <div className="flex-1">
+                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                        <input type="text" placeholder="John Doe" className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                      </div>
+                      <div className="flex-1 mt-6">
+                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                        <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                      </div>
+                      <div className="w-full mt-6">
+                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                        <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" placeholder="Message" defaultValue={""} />
+                      </div>
+                      <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                        get in touch
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      );
+
+
+
+      blue
+
+      return (
+    <main className="">
+      <div className="relative isolate pt-14 dark:bg-gray-900">
+          <div className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
+          aria-hidden="true">
+            <div
+                className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem]
+                -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]
+                opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                style={{
+                  clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 180%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+          </div>
+
+          <div className="py-12 sm:py-20 lg:pb-64">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl text-center">
+                <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
+                  Chat with Anyone, anywhere!
+                </h1>
+                <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+                  You speak your language, they speak their language.{" "}
+                  <span className="text-indigo-600 dark:text-indigo-500">
+                    Let AI handle the translation.
+                  </span>
+                </p>
+                <div className="mt-10 flex items-center justify-center gap-x-6">
+                  {/* Link component here */}
+
+                  <Link
+                    href="/contact"
+                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white dark:text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Talk to Sales
+                  </Link>
+                 
+
+                  <Link
+                    href="/chat"
+                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white dark:text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Get started
+                  </Link>
+
+                  {/* Link component here */}
+                  <Link
+                    href="/pricing"
+                    className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-300"
+                  >
+                    View Pricing →
+                    <span aria-hidden="true"></span>
+                  </Link>
+
+                </div>
+              </div>
+
+              <div className="mt-16 flow-root sm:mt-24">
+                <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                  {/* Image component here */}
+                  <Image
+                    unoptimized
+                    src={DemoGif}
+                    alt="App screenshot"
+                    width={2432}
+                    height={1442}
+                    className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+                  />
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
+          aria-hidden="true">
+            <div
+                className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem]
+                -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]
+                opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                style={{
+                  clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 180%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+          </div>
+          
+      </div>
+
+     
+    </main>
+  );
+
+
+  email, phone and timing
+
+  https://merakiui.com/components/marketing/faq
+
+
+   return (
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="container px-6 py-12 mx-auto">
+          <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">Have any Questions?</h1>
+          <div className="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+            <div className="lg:mx-12">
+              <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Table of Content</h1>
+              <div className="mt-4 space-y-4 lg:mt-8">
+                <a href="#" className="block text-blue-500 dark:text-blue-400 hover:underline">General</a>
+                <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Trust &amp; Safety</a>
+                <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Services</a>
+                <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Billing</a>
+                <a href="#" className="block text-gray-500 dark:text-gray-300 hover:underline">Office Cleaning</a>
+              </div>
+            </div>
+            <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
+              <div>
+                <button className="flex items-center focus:outline-none">
+                  <svg className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 12H4" /></svg>
+                  <h1 className="mx-4 text-xl text-gray-700 dark:text-white">How i can play for my appoinment ?</h1>
+                </button>
+                <div className="flex mt-8 md:mx-10">
+                  <span className="border border-blue-500" />
+                  <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
+                  </p>
+                </div>
+              </div>
+              <hr className="my-8 border-gray-200 dark:border-gray-700" />
+              <div>
+                <button className="flex items-center focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                  <h1 className="mx-4 text-xl text-gray-700 dark:text-white">What can i expect at my first consultation ?</h1>
+                </button>
+              </div>
+              <hr className="my-8 border-gray-200 dark:border-gray-700" />
+              <div>
+                <button className="flex items-center focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                  <h1 className="mx-4 text-xl text-gray-700 dark:text-white">What are your opening house ?</h1>
+                </button>
+              </div>
+              <hr className="my-8 border-gray-200 dark:border-gray-700" />
+              <div>
+                <button className="flex items-center focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                  <h1 className="mx-4 text-xl text-gray-700 dark:text-white">Do i need a referral ?</h1>
+                </button>
+              </div>
+              <hr className="my-8 border-gray-200 dark:border-gray-700" />
+              <div>
+                <button className="flex items-center focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                  </svg>
+                  <h1 className="mx-4 text-xl text-gray-700 dark:text-white">Is the cost of the appoinment covered by private health insurance ?</h1>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+
+
+    faqs working
+
+    return (
+    
+    <section className="bg-white dark:bg-gray-900">
+      <div className="container px-6 py-12 mx-auto">
+        <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">Have any Questions?</h1>
+        <div className="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+          <div className="lg:mx-12">
+            <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Table of Content</h1>
+            <div className="mt-4 space-y-4 lg:mt-8">
+              {Object.keys(faqData).map((category) => (
+                <button
+                  key={category}
+                  className={`block ${category === openCategory ? 'text-blue-500 dark:text-blue-400' : 'text-gray-500 dark:text-gray-300'} hover:underline`}
+                  onClick={() => handleCategoryClick(category)}
+                >
+                  {category.charAt(0).toUpperCase() + category.slice(1)}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
+            {openCategory && (
+              <div>
+                {faqData[openCategory].map((faq, index) => (
+                  <div key={index}>
+                    <button
+                      className="flex items-center focus:outline-none"
+                      onClick={() => handleItemClick(index)}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={`flex-shrink-0 w-6 h-6 text-blue-500 transform ${index === openItem ? 'rotate-180' : ''}`}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        >
+                        {index === openItem ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 9l6 6 6-6" />
+                        ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        )}
+                      </svg>
+                      <h1 className="mx-4 text-xl text-gray-700 dark:text-white">{faq.question}</h1>
+                    </button>
+                    {index === openItem && (
+                      <div className="flex mt-8 md:mx-10">
+                        <span className="border border-blue-500" />
+                        <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                    <hr className="my-8 border-gray-200 dark:border-gray-700" />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+
+
+  not working 
+
+  return (
+     <div className="relative overflow-hidden bg-gradient-to-br from-[#ff80b5] to-[#9089fc] dark:bg-gray-900">
+    {/* Blob Background */}
+    <div className="absolute inset-x-0 top-28 z-[-1] transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
+      <div
+        className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style={{
+          clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 180%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+        }}
+      />
+    </div>
+  
+      {/* Content Section */}
+      <section className="bg-white dark:bg-gray-900">
+      <div className="container px-6 py-12 mx-auto">
+        <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">Have any Questions?</h1>
+        <div className="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+          <div className="lg:mx-12">
+            <h1 className="text-xl font-semibold text-gray-800 dark:text-white">Table of Content</h1>
+            <div className="mt-4 space-y-4 lg:mt-8">
+              {Object.keys(faqData).map((category) => (
+                <button
+                  key={category}
+                  className={`block ${category === openCategory ? 'text-blue-500 dark:text-blue-400' : 'text-gray-500 dark:text-gray-300'} hover:underline`}
+                  onClick={() => handleCategoryClick(category)}
+                >
+                  {category.charAt(0).toUpperCase() + category.slice(1)}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
+            {openCategory && (
+              <div>
+                {faqData[openCategory].map((faq, index) => (
+                  <div key={index}>
+                    <button
+                      className="flex items-center focus:outline-none"
+                      onClick={() => handleItemClick(index)}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={`flex-shrink-0 w-6 h-6 text-blue-500 transform ${index === openItem ? 'rotate-180' : ''}`}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        >
+                        {index === openItem ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 9l6 6 6-6" />
+                        ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        )}
+                      </svg>
+                      <h1 className="mx-4 text-xl text-gray-700 dark:text-white">{faq.question}</h1>
+                    </button>
+                    {index === openItem && (
+                      <div className="flex mt-8 md:mx-10">
+                        <span className="border border-blue-500" />
+                        <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                    <hr className="my-8 border-gray-200 dark:border-gray-700" />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  );
+  
+
+  testimonial
+
+   return (
+
+        <section className="bg-white dark:bg-gray-900 pb-20">
+          <div className="container px-6 py-10 mx-auto">
+            <div className="mt-6 md:flex md:items-center md:justify-between">
+              <div>
+                <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+                  What our clients are saying
+                </h1>
+                <div className="flex mx-auto mt-6">
+                  <span className="inline-block w-40 h-1 bg-blue-500 rounded-full" />
+                  <span className="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full" />
+                  <span className="inline-block w-1 h-1 bg-blue-500 rounded-full" />
+                </div>
+              </div>
+
+              <div className="flex justify-between mt-8 md:mt-0">
+                <button title="left arrow" className="p-2 mx-3 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:text-gray-200 dark:hover:bg-gray-800 dark:border-gray-700 hover:bg-gray-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                <button title="right arrow" className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:text-gray-200 dark:hover:bg-gray-800 dark:border-gray-700 hover:bg-gray-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+            <section className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3 pb-20">
+              <div className="p-8 border rounded-lg dark:border-gray-700">
+                <p className="leading-loose text-gray-500 dark:text-gray-400">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">CTO, Robert Consultency</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="p-8 bg-blue-500 border border-transparent rounded-lg dark:bg-blue-600">
+                <p className="leading-loose text-white">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-blue-200" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-white">Jeny Doe</h1>
+                    <span className="text-sm text-blue-200">CEO, Jeny Consultency</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8 border rounded-lg dark:border-gray-700">
+                <p className="leading-loose text-gray-500 dark:text-gray-400">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-gray-800 dark:text-white">Ema Watson </h1>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">Marketing Manager at Stech</span>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+          </div>
+        </section>
+      );
+
+
+
+      // CarouselComponent.tsx
+import React from 'react';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from 'shadcn-ui';
+
+const CarouselComponent: React.FC = () => {
+  return (
+    <Carousel className="w-full max-w-screen-lg mx-auto">
+      <CarouselContent>
+        <CarouselItem>
+          <img
+            src="https://placekitten.com/800/400"
+            alt="Slide 1"
+            className="w-full h-64 object-cover"
+          />
+        </CarouselItem>
+        <CarouselItem>
+          <img
+            src="https://placekitten.com/800/401"
+            alt="Slide 2"
+            className="w-full h-64 object-cover"
+          />
+        </CarouselItem>
+        {/* Add more CarouselItems as needed */}
+      </CarouselContent>
+      <CarouselPrevious>
+        <button className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 text-white bg-gray-800 rounded-full">
+          Previous
+        </button>
+      </CarouselPrevious>
+      <CarouselNext>
+        <button className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 text-white bg-gray-800 rounded-full">
+          Next
+        </button>
+      </CarouselNext>
+    </Carousel>
+  );
+};
+
+export default CarouselComponent;
+
+
+// working 
+
+ return (
+        <Carousel className="w-full max-w-screen-lg mx-auto">
+          <CarouselContent>
+            <CarouselItem>
+            <div className="p-8 border rounded-lg dark:border-gray-700">
+                <p className="leading-loose text-gray-500 dark:text-gray-400">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">CTO, Robert Consultency</span>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+            <div className="p-8 bg-blue-500 border border-transparent rounded-lg dark:bg-blue-600">
+                <p className="leading-loose text-white">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-blue-200" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-white">Jeny Doe</h1>
+                    <span className="text-sm text-blue-200">CEO, Jeny Consultency</span>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+            {/* Add more CarouselItems as needed */}
+            <CarouselItem>
+            <div className="p-8 bg-blue-500 border border-transparent rounded-lg dark:bg-blue-600">
+                <p className="leading-loose text-white">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-blue-200" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-white">Jeny Doe</h1>
+                    <span className="text-sm text-blue-200">CEO, Jeny Consultency</span>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+
+            <CarouselItem>
+            <div className="p-8 bg-blue-500 border border-transparent rounded-lg dark:bg-blue-600">
+                <p className="leading-loose text-white">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-blue-200" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-white">Jeny Doe</h1>
+                    <span className="text-sm text-blue-200">CEO, Jeny Consultency</span>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+
+            <CarouselItem>
+            <div className="p-8 bg-blue-500 border border-transparent rounded-lg dark:bg-blue-600">
+                <p className="leading-loose text-white">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-blue-200" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-white">Jeny Doe</h1>
+                    <span className="text-sm text-blue-200">CEO, Jeny Consultency</span>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+
+            <CarouselItem>
+            <div className="p-8 bg-blue-500 border border-transparent rounded-lg dark:bg-blue-600">
+                <p className="leading-loose text-white">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+                </p>
+                <div className="flex items-center mt-8 -mx-2">
+                  <img className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-blue-200" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-white">Jeny Doe</h1>
+                    <span className="text-sm text-blue-200">CEO, Jeny Consultency</span>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious>
+            <button className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 text-white bg-gray-800 rounded-full">
+              Previous
+            </button>
+          </CarouselPrevious>
+          <CarouselNext>
+            <button className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 text-white bg-gray-800 rounded-full">
+              Next
+            </button>
+          </CarouselNext>
+        </Carousel>
+    )
+
+    features 
+
+    return (
+
+      <section className="bg-white dark:bg-gray-900">
+        <div className="container px-6 py-10 mx-auto">
+          <div className="lg:flex lg:items-center">
+            <div className="w-full space-y-12 lg:w-1/2 ">
+              <div>
+                <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br /> awesome Components</h1>
+                <div className="mt-2">
+                  <span className="inline-block w-40 h-1 bg-blue-500 rounded-full" />
+                  <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full" />
+                  <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full" />
+                </div>
+              </div>
+              <div className="md:flex md:items-start md:-mx-4">
+                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                  </svg>
+                </span>
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Copy &amp; paste components</h1>
+                  <p className="mt-3 text-gray-500 dark:text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  </p>
+                </div>
+              </div>
+              <div className="md:flex md:items-start md:-mx-4">
+                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+                </span>
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configuration</h1>
+                  <p className="mt-3 text-gray-500 dark:text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  </p>
+                </div>
+              </div>
+              <div className="md:flex md:items-start md:-mx-4">
+                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                  </svg>
+                </span>
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+                  <p className="mt-3 text-gray-500 dark:text-gray-300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+              <img className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80" alt="" />
+            </div>
+          </div>
+          <hr className="my-12 border-gray-200 dark:border-gray-700" />
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+              <svg className="h-12 text-gray-500 fill-current dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266 100"><path fill="none" d="M0 0h266v100H0z" /><path d="M140.021 49.597c-1.784 0-3.07.585-4.374 1.181v13.486c1.249.119 1.965.119 3.15.119 4.282 0 4.869-1.961 4.869-4.699v-6.441c0-2.022-.671-3.646-3.645-3.646zm-28.438-.736c-2.971 0-3.649 1.631-3.649 3.651v1.135h7.294v-1.135c0-2.02-.678-3.651-3.645-3.651zm-55.09 14.037c0 1.598.754 2.428 2.418 2.428 1.785 0 2.842-.582 4.145-1.18v-3.199h-3.903c-1.848 0-2.66.344-2.66 1.951zm111.191-13.301c-2.976 0-4.007 1.624-4.007 3.646v7.379c0 2.027 1.031 3.656 4.007 3.656 2.968 0 4.007-1.629 4.007-3.656v-7.379c-.001-2.022-1.04-3.646-4.007-3.646zM41.909 71.172h-8.748V49.998H28.79v-7.296h4.372V38.32c0-5.953 2.467-9.492 9.479-9.492h5.838v7.298H44.83c-2.73 0-2.91 1.02-2.91 2.923l-.011 3.652h6.61l-.773 7.296h-5.837v21.175zm29.897.055h-7.291l-.315-1.844c-3.329 1.844-6.3 2.143-8.26 2.143-5.347 0-8.193-3.572-8.193-8.512 0-5.828 3.321-7.908 9.262-7.908h6.047v-1.26c0-2.975-.341-3.848-4.916-3.848h-7.48l.731-7.296h8.176c10.038 0 12.239 3.171 12.239 11.203v17.322zm24.793-20.694c-4.537-.778-5.84-.949-8.023-.949-3.921 0-5.106.865-5.106 4.195v6.299c0 3.33 1.185 4.199 5.106 4.199 2.183 0 3.486-.174 8.023-.955v7.117c-3.974.891-6.563 1.125-8.751 1.125-9.392 0-13.125-4.939-13.125-12.074v-5.111c0-7.141 3.733-12.089 13.125-12.089 2.188 0 4.777.235 8.751 1.13v7.113zm27.376 8.957h-16.042v.588c0 3.33 1.186 4.199 5.106 4.199 3.524 0 5.675-.174 10.204-.955v7.117c-4.368.891-6.644 1.125-10.929 1.125-9.393 0-13.128-4.939-13.128-12.074v-5.844c0-6.243 2.771-11.356 12.396-11.356s12.393 5.054 12.393 11.356v5.844zm28.437.135c0 6.896-1.971 11.926-13.911 11.926-4.312 0-6.841-.379-11.6-1.111V31.02l8.745-1.459V43.35c1.89-.702 4.336-1.059 6.562-1.059 8.746 0 10.203 3.921 10.203 10.222v7.112zm28.033.15c0 5.949-2.456 11.719-12.732 11.719-10.281 0-12.783-5.77-12.783-11.719v-5.744c0-5.952 2.502-11.723 12.783-11.723 10.276 0 12.732 5.771 12.732 11.723v5.744zm28.014 0c0 5.949-2.459 11.719-12.733 11.719-10.281 0-12.783-5.77-12.783-11.719v-5.744c0-5.952 2.502-11.723 12.783-11.723 10.274 0 12.733 5.771 12.733 11.723v5.744zm28.749 11.397h-9.479l-8.017-13.383v13.383h-8.748V31.019l8.748-1.459v25.849l8.017-12.707h9.479l-8.752 13.867 8.752 14.603zm-41.512-21.575c-2.971 0-4.002 1.624-4.002 3.646v7.379c0 2.027 1.031 3.656 4.002 3.656 2.967 0 4.017-1.629 4.017-3.656v-7.379c0-2.022-1.05-3.646-4.017-3.646zm46.505 16.581c1.473 0 2.646 1.201 2.646 2.701 0 1.523-1.174 2.711-2.657 2.711-1.476 0-2.673-1.188-2.673-2.711 0-1.5 1.197-2.701 2.673-2.701h.011zm-.011.42c-1.187 0-2.158 1.021-2.158 2.281 0 1.283.972 2.291 2.169 2.291 1.198.012 2.155-1.008 2.155-2.279s-.957-2.293-2.155-2.293h-.011zm-.503 3.853h-.48v-3.014c.252-.035.492-.07.852-.07.456 0 .754.096.937.227.177.133.272.336.272.623 0 .398-.262.637-.585.734v.023c.263.049.442.287.503.73.07.469.143.648.19.746h-.503c-.071-.098-.144-.373-.204-.77-.07-.383-.264-.527-.648-.527h-.333v1.298zm0-1.668h.348c.394 0 .729-.145.729-.518 0-.264-.19-.527-.729-.527-.157 0-.266.012-.348.023v1.022z" /></svg>
+            </div>
+            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+              <svg className="h-10 text-gray-500 fill-current dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 316 60"><g transform="translate(9.259 4.552) scale(.4941)"><path d="M52.1 102.1V82.5c20.8 0 36.8-20.6 28.9-42.4-3-8.1-9.4-14.6-17.5-17.5-21.8-7.9-42.4 8.1-42.4 28.9H1.5c0-33.1 32-58.9 66.7-48.1 15.2 4.7 27.2 16.8 31.9 31.9 10.8 34.8-14.9 66.8-48 66.8z" /><path d="M32.6 63h19.5v19.5H32.6zm-15 34.5v-15h15v15h-15zM5 70h12.6v12.5H5z" fillRule="evenodd" /><path d="M181.5 30.2c-5.8-4-13-6.1-21.4-6.1h-18.3v58.1h18.3c8.4 0 15.6-2.1 21.4-6.4 3.2-2.2 5.7-5.4 7.4-9.3s2.6-8.5 2.6-13.7c0-5.1-.9-9.7-2.6-13.6-1.7-3.8-4.2-6.9-7.4-9zm-29 3.8h5.8c6.4 0 11.7 1.3 15.7 3.7 4.4 2.7 6.7 7.8 6.7 15.1 0 7.6-2.3 12.9-6.7 15.8-3.8 2.5-9.1 3.8-15.6 3.8h-5.8V34z" /><use xlinkHref="#A" /><path d="M199 41.3h10.3v41H199zm47.8 3.4c-3.1-2.8-6.6-4.4-10.3-4.4-5.7 0-10.4 2-14.1 5.8s-5.5 8.8-5.5 14.7c0 5.8 1.8 10.7 5.5 14.7 3.7 3.8 8.4 5.8 14.1 5.8 4 0 7.4-1.1 10.2-3.3v1c0 3.4-.9 6-2.7 7.9-1.8 1.8-4.3 2.7-7.4 2.7-4.8 0-7.7-1.9-11.4-6.8l-7 6.7.2.3c1.5 2.1 3.8 4.2 6.9 6.2s6.9 3 11.5 3c6.1 0 11.1-1.9 14.7-5.6 3.7-3.7 5.5-8.7 5.5-14.9V41.3h-10.1v3.4zm-2.7 24.2c-1.8 2-4.1 3-7.1 3s-5.3-1-7-3c-1.8-2-2.7-4.7-2.7-8s.9-6.1 2.7-8.1 4.1-3.1 7-3.1c3 0 5.3 1 7.1 3.1 1.8 2 2.7 4.8 2.7 8.1s-1 6-2.7 8zm21.6-27.6H276v41h-10.3z" /><use xlinkHref="#A" x="66.7" /><path d="M298.6 30.3h-10.1v11.1h-5.9v9.4h5.9v17c0 5.3 1.1 9.1 3.2 11.3s5.8 3.3 11.1 3.3c1.7 0 3.4-.1 5-.2h.5v-9.4l-3.5.2c-2.5 0-4.1-.4-4.9-1.3s-1.2-2.7-1.2-5.4V50.7h9.6v-9.4h-9.6v-11zm57.9-6.2h10.3v58.1h-10.3zm114.4 43.5c-1.8 2.1-3.7 3.9-5.2 4.8-1.4.9-3.2 1.4-5.3 1.4-3 0-5.5-1.1-7.5-3.4s-3-5.2-3-8.7 1-6.4 2.9-8.6c2-2.3 4.4-3.4 7.4-3.4 3.3 0 6.8 2.1 9.8 5.6l6.8-6.5c-4.4-5.8-10.1-8.5-16.9-8.5-5.7 0-10.6 2.1-14.6 6.1s-6 9.2-6 15.3 2 11.2 6 15.3 8.9 6.1 14.6 6.1c7.5 0 13.5-3.2 17.5-9.1l-6.5-6.4zM513.2 47c-1.5-2-3.5-3.7-5.9-4.9-2.5-1.2-5.3-1.8-8.5-1.8-5.8 0-10.5 2.1-14 6.3-3.4 4.2-5.2 9.3-5.2 15.4 0 6.2 1.9 11.3 5.7 15.3 3.7 3.9 8.8 5.9 14.9 5.9 6.9 0 12.7-2.8 16.9-8.4l.2-.3-6.7-6.5c-.6.8-1.5 1.6-2.3 2.4-1 1-2 1.7-3 2.2-1.5.8-3.3 1.1-5.2 1.1-2.9 0-5.2-.8-7-2.5-1.7-1.5-2.7-3.6-2.9-6.2h27.3l.1-3.8c0-2.7-.4-5.2-1.1-7.6-.7-2.3-1.8-4.5-3.3-6.6zm-22.5 9.7c.5-2 1.4-3.6 2.7-4.9 1.4-1.4 3.2-2.1 5.4-2.1 2.5 0 4.4.7 5.7 2.1 1.2 1.3 1.9 2.9 2.1 4.8h-15.9zm62.1-12.3c-3.1-2.7-7.4-4-12.8-4-3.4 0-6.6.8-9.5 2.2-2.7 1.4-5.3 3.6-7 6.6l.1.1 6.6 6.3c2.7-4.3 5.7-5.8 9.7-5.8 2.2 0 3.9.6 5.3 1.7s2 2.6 2 4.4v2c-2.6-.8-5.1-1.2-7.6-1.2-5.1 0-9.3 1.2-12.4 3.6s-4.7 5.9-4.7 10.2c0 3.8 1.3 7 4 9.3 2.7 2.2 6 3.4 9.9 3.4s7.6-1.6 10.9-4.3v3.4h10.1V55.9c.2-4.9-1.4-8.8-4.6-11.5zm-18.3 22.2c1.2-.8 2.8-1.2 4.9-1.2 2.5 0 5.1.5 7.8 1.5v4C545 73 542 74 538.3 74c-1.8 0-3.2-.4-4.1-1.2s-1.4-1.7-1.4-3 .6-2.4 1.7-3.2zm62.7-21.4c-2.9-3.2-6.9-4.8-12-4.8-4.1 0-7.4 1.2-9.9 3.5v-2.5h-10.1v41h10.3V59.7c0-3.1.7-5.6 2.2-7.3 1.5-1.8 3.4-2.6 6.1-2.6 2.3 0 4.1.8 5.4 2.3 1.3 1.6 2 3.7 2 6.4v23.7h10.3V58.5c0-5.6-1.4-10.1-4.3-13.3zm-253.6-.8c-3.1-2.7-7.4-4-12.8-4-3.4 0-6.6.8-9.5 2.2-2.7 1.4-5.3 3.6-7 6.6l.1.1 6.6 6.3c2.7-4.3 5.7-5.8 9.7-5.8 2.2 0 3.9.6 5.3 1.7s2 2.6 2 4.4v2c-2.6-.8-5.1-1.2-7.6-1.2-5.1 0-9.3 1.2-12.4 3.6s-4.7 5.9-4.7 10.2c0 3.8 1.3 7 4 9.3 2.7 2.2 6 3.4 9.9 3.4s7.6-1.6 10.9-4.3v3.4h10.1V55.9c.1-4.9-1.5-8.8-4.6-11.5zm-18.3 22.2c1.2-.8 2.8-1.2 4.9-1.2 2.5 0 5.1.5 7.8 1.5v4c-2.2 2.1-5.2 3.1-8.9 3.1-1.8 0-3.2-.4-4.1-1.2s-1.4-1.7-1.4-3 .5-2.4 1.7-3.2zm78.9 16.5c-16.5 0-30-13.4-30-30s13.4-30 30-30c16.5 0 30 13.4 30 30s-13.5 30-30 30zm0-49.3c-10.7 0-19.4 8.7-19.4 19.4s8.7 19.4 19.4 19.4 19.4-8.7 19.4-19.4-8.7-19.4-19.4-19.4z" /></g><defs><path d="M204.3 23.4c-1.8 0-3.3.6-4.5 1.8s-1.9 2.7-1.9 4.4c0 1.8.6 3.3 1.9 4.5 1.2 1.2 2.7 1.9 4.5 1.9s3.3-.6 4.5-1.9c1.2-1.2 1.9-2.8 1.9-4.5 0-1.8-.6-3.3-1.9-4.4-1.2-1.2-2.8-1.8-4.5-1.8z" /></defs></svg>
+            </div>
+            <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+              <svg className="h-8 mt-2 text-gray-500 fill-current dark:text-gray-300" viewBox="0 0 398 120" xmlns="http://www.w3.org/2000/svg"><g fillRule="nonzero"><path d="M247.292 94.106C224.124 111.016 190.526 120 161.608 120c-40.544 0-77.046-14.822-104.673-39.476-2.164-1.936-.235-4.583 2.369-3.082 29.806 17.15 66.66 27.475 104.731 27.475 25.677 0 53.906-5.271 79.884-16.163 3.923-1.646 7.21 2.545 3.373 5.352" /><path d="M256.533 82.534c-2.965-3.771-19.551-1.787-27.003-.897-2.254.277-2.605-1.692-.57-3.122 13.233-9.265 34.922-6.587 37.447-3.487 2.54 3.13-.666 24.802-13.073 35.147-1.91 1.59-3.718.744-2.877-1.357 2.782-6.952 9.04-22.505 6.076-26.284zM230.05 13.058V4.063c.015-1.378 1.04-2.29 2.291-2.283l40.493-.007c1.295 0 2.335.94 2.335 2.268v7.726c-.015 1.29-1.113 2.983-3.053 5.668l-20.97 29.843c7.78-.182 16.022.985 23.093 4.939 1.596.897 2.027 2.217 2.152 3.516v9.607c0 1.32-1.457 2.86-2.987 2.057-12.458-6.507-29-7.214-42.776.08-1.405.745-2.884-.765-2.884-2.086v-9.133c0-1.459.03-3.961 1.508-6.186l24.302-34.738h-21.162c-1.295 0-2.327-.927-2.342-2.276zM82.354 69.294H70.042c-1.171-.08-2.108-.956-2.203-2.072l.014-63.006c0-1.262 1.062-2.268 2.38-2.268L81.71 1.94c1.2.059 2.159.963 2.232 2.116v8.221h.234C87.163 4.326 92.8.613 100.39.613c7.708 0 12.539 3.713 15.98 11.664C119.361 4.326 126.14.613 133.393.613c5.175 0 10.804 2.123 14.251 6.893 3.916 5.311 3.111 12.993 3.111 19.755l-.015 39.764c0 1.255-1.061 2.262-2.379 2.262h-12.304c-1.23-.08-2.203-1.05-2.203-2.262l-.007-33.41c0-2.648.234-9.28-.344-11.796-.923-4.246-3.675-5.435-7.24-5.435-2.986 0-6.09 1.985-7.356 5.165-1.266 3.188-1.15 8.484-1.15 12.066v33.403c0 1.255-1.06 2.262-2.378 2.262h-12.297c-1.237-.08-2.21-1.051-2.21-2.262l-.015-33.41c0-7.025 1.142-17.362-7.59-17.362-8.858 0-8.506 10.074-8.506 17.362l-.007 33.403c-.022 1.276-1.084 2.283-2.401 2.283zm227.788-55.82c-9.084 0-9.662 12.328-9.662 20.017s-.117 24.131 9.545 24.131c9.545 0 10.006-13.262 10.006-21.345 0-5.303-.234-11.664-1.845-16.705-1.383-4.377-4.143-6.098-8.044-6.098zM310.025.613c18.284 0 28.173 15.647 28.173 35.533 0 19.222-10.92 34.468-28.173 34.468-17.933 0-27.712-15.647-27.712-35.132C282.305 15.86 292.2.612 310.025.612zm51.882 68.681h-12.275c-1.23-.08-2.211-1.05-2.211-2.261l-.015-63.028c.103-1.16 1.12-2.057 2.365-2.057l11.426-.008c1.076.059 1.961.788 2.188 1.766v9.636h.234c3.448-8.622 8.279-12.73 16.785-12.73 5.519 0 10.92 1.992 14.375 7.427C398 13.072 398 21.556 398 27.662v39.64c-.14 1.117-1.142 1.985-2.364 1.985h-12.349c-1.141-.073-2.064-.912-2.188-1.984V33.097c0-6.894.805-16.968-7.708-16.968-2.993 0-5.753 1.984-7.13 5.033-1.72 3.845-1.953 7.69-1.953 11.935v33.928c-.03 1.262-1.091 2.27-2.401 2.27zm-151.715-.16c-.813.73-1.991.78-2.913.284-4.092-3.385-4.824-4.953-7.064-8.177-6.756 6.864-11.543 8.921-20.305 8.921-10.372 0-18.438-6.376-18.438-19.134 0-9.965 5.424-16.742 13.139-20.061 6.683-2.925 16.023-3.458 23.167-4.253v-1.598c0-2.925.234-6.375-1.5-8.9-1.501-2.26-4.378-3.195-6.918-3.195-4.692 0-8.871 2.4-9.904 7.375-.212 1.11-1.024 2.204-2.137 2.262l-11.938-1.291c-1.01-.234-2.13-1.029-1.838-2.568C166.288 4.362 179.37 0 191.087 0c5.995 0 13.827 1.59 18.556 6.113 5.995 5.58 5.416 13.021 5.416 21.126v19.127c0 5.756 2.401 8.28 4.648 11.373.79 1.116.967 2.444-.036 3.26-2.518 2.102-6.983 5.968-9.443 8.15l-.036-.015zm-12.414-29.931v-2.656c-8.908 0-18.322 1.897-18.322 12.35 0 5.319 2.767 8.908 7.488 8.908 3.455 0 6.566-2.123 8.528-5.58 2.423-4.254 2.306-8.237 2.306-13.022zM48.72 69.133c-.813.73-1.991.781-2.913.285-4.092-3.385-4.824-4.953-7.064-8.177-6.763 6.864-11.55 8.921-20.305 8.921C8.06 70.162 0 63.786 0 51.028c0-9.965 5.417-16.742 13.139-20.061 6.683-2.925 16.015-3.458 23.16-4.253v-1.598c0-2.925.233-6.375-1.501-8.9-1.5-2.26-4.377-3.195-6.91-3.195-4.7 0-8.879 2.4-9.904 7.375-.212 1.11-1.024 2.204-2.137 2.262L3.91 21.367c-1.01-.234-2.13-1.029-1.845-2.568C4.81 4.362 17.89.007 29.615.007c5.995 0 13.827 1.59 18.556 6.113 5.995 5.581 5.416 13.022 5.416 21.126v19.128c0 5.755 2.401 8.28 4.648 11.372.79 1.116.967 2.444-.036 3.261-2.518 2.101-6.99 5.967-9.45 8.148l-.03-.021zm-12.422-29.93v-2.656c-8.908 0-18.32 1.897-18.32 12.35 0 5.319 2.766 8.908 7.487 8.908 3.462 0 6.573-2.123 8.528-5.58 2.422-4.254 2.305-8.237 2.305-13.022z" /></g></svg>
+            </div>
+            <div className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
+              <svg className="h-5 mt-1 text-gray-500 fill-current dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278.7 36.3"><g><path className="st0" d="M238.1 14.4v21.9h7V21.7h25.6v14.6h7V14.4h-39.6m6.2-7.1h27c3.8-.7 6.5-4.1 7.3-7.3H237c.8 3.2 3.6 6.5 7.3 7.3m-27.5 29c3.5-1.5 5.4-4.1 6.2-7.1h-31.5V.1h-7.1v36.2h32.4M131.9 7.2h25c3.8-1.1 6.9-4 7.7-7.1H125v21.4h32.4V29H132c-4 1.1-7.4 3.8-9.1 7.3h41.5V14.4H132l-.1-7.2m-61.6.1h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.5 7.4 7.3m0 14.3h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.5 7.4 7.3m0 14.7h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.6 7.4 7.3M0 .1c.8 3.2 3.6 6.4 7.3 7.2h11.4l.6.2v28.7h7.1V7.5l.6-.2h11.4c3.8-1 6.5-4 7.3-7.2V0L0 .1" /></g></svg>
+            </div>
+            <div className="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
+              <svg className="h-8 text-gray-500 fill-current dark:text-gray-300" viewBox="0 0 2270 546" xmlns="http://www.w3.org/2000/svg"><g fillRule="evenodd"><path d="M888.413 394.397l-31.127 144.717h-71.593L903.977 14.642h84.81l111.28 524.472h-72.371l-30.35-144.717H888.413zm100.373-58.364l-24.124-125.3c-7.003-35.797-14.007-82.463-19.441-119.828h-3.126c-5.434 38.13-13.242 86.365-20.22 119.827l-24.902 125.301h91.813zM1373.34.648v441.205c0 28.806 1.556 70.828 3.1 97.274h-63.02l-4.67-45.9h-2.334c-12.451 26.445-41.244 52.138-79.362 52.138-70.037 0-112.837-76.275-112.837-193.755 0-133.848 56.794-196.881 116.728-196.881 30.336 0 54.46 14.02 67.689 42.8h1.556V.648h73.15zm-73.163 304.258c0-6.991 0-15.551-.778-23.359-3.89-34.227-23.345-63.798-49.79-63.798-45.927 0-61.477 63.798-61.477 133.848 0 77.818 20.232 132.278 59.142 132.278 16.342 0 38.118-8.56 50.569-53.681 1.556-6.226 2.334-15.577 2.334-24.111V304.906zm247.399 240.446c-75.471 0-129.957-64.59-129.957-194.52 0-137.752 64.576-196.116 133.835-196.116 74.705 0 128.387 66.924 128.387 194.546 0 150.19-73.927 196.09-131.5 196.09h-.765zm2.321-57.573c45.122 0 55.251-80.153 55.251-137.726 0-56.82-10.116-137.739-56.794-137.739-48.26 0-57.586 80.919-57.586 137.74 0 63.02 10.895 137.725 58.364 137.725h.765zM1723.938.648h73.137V203.74h1.556c19.455-34.227 45.913-49.025 79.375-49.025 64.577 0 105.055 73.15 105.055 189.099 0 135.391-55.25 201.537-117.506 201.537-37.353 0-58.364-20.246-74.719-53.708h-3.086l-3.904 47.47h-63.02c1.556-25.668 3.112-68.468 3.112-97.274V.648zm73.137 404.618c0 8.586.778 17.146 3.113 23.358 11.66 45.926 34.24 55.251 49.012 55.251 43.579 0 59.92-57.572 59.92-135.391 0-72.371-17.106-130.735-60.698-130.735-24.124 0-43.578 28.793-49.025 56.03-1.557 7.781-2.335 17.91-2.335 25.68v105.807h.013zm293.92-40.453c.779 97.273 42.788 121.384 87.145 121.384 26.458 0 49.025-6.213 65.367-14.007l10.895 52.916c-22.568 11.673-56.808 17.912-90.27 17.912-94.925 0-144.73-71.594-144.73-188.321 0-123.732 56.795-199.994 135.392-199.994s115.172 75.484 115.172 170.435c0 18.664-.792 30.35-1.557 40.453l-177.413-.778zm109.712-52.126c.778-66.924-22.567-102.707-51.347-102.707-38.144 0-55.264 55.251-57.586 102.707h108.933z" fillRule="nonzero" /><path d="M373.462 16.043h218.501v523.07L373.462 16.044zm-153.926 0H.88v523.07l218.657-523.07zm76.976 192.77l139.218 330.3H344.5l-41.633-105.197H200.964l95.548-225.103z" /></g></svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+
+
+// working blob .tsx
+
+// BlobComponent.jsx
+// BlobComponent.tsx
+import React from 'react';
+
+interface BlobProps {
+  top: string;
+  left: string;
+  width: string;
+  height: string;
+  clipPath: string;
+  gradientFrom: string;
+  gradientTo: string;
+}
+
+const Blob: React.FC<BlobProps> = ({ top, left, width, height, gradientFrom, gradientTo,}) => {
+ const clipPath='polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)'
+  return (
+    <div
+    className="absolute inset-x-0 transform-gpu overflow-hidden blur-3xl opacity-100"
+    style={{ top, left }}
+    >
+    <div
+      className="relative aspect-[1155/678] w-[36.125rem]"
+      style={{
+        width,
+        height,
+        clipPath, // Include the clipPath in the styles
+        background: `linear-gradient(to bottom right, ${gradientFrom}, ${gradientTo})`,
+      }}
+    />
+  </div>
+  );
+};
+// use this wherever blob is needed  adjust left right
+//  <Blob top="50%" left="0%" width="36.125rem" height="20rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc"/> 
+export default Blob;
+
+
+// footer
+
+"use client";
+
+import React from 'react'
+import { useState } from 'react';
+import Blob from '@/components/Blob'
+
+const Footer = () => {
+
+    const svgStyles = {
+        fill: '#FFFFFF',
+    };
+
+    const [subscribed, setSubscribed] = useState(false);
+    const [error, setError] = useState('');
+  
+    const handleSubscribe = () => {
+      const emailInput = document.getElementById('email') as HTMLInputElement;
+  
+      if (!emailInput.value.trim()) {
+        setError('Email is required');
+        setTimeout(() => setError(''), 2000);
+        return;
+      }
+  
+      // Your subscribe logic here
+  
+      // If subscribe is successful, update state
+      setTimeout(() =>  setSubscribed(true), 1000);
+     
+      // Reset error state
+      setError('');
+  
+      // Reset input field
+      emailInput.value = '';
+    };
+  
+  
+
+    return (
+
+        <footer className="bg-white dark:bg-gray-900">
+        {/* <Blob top="350%" left="0%" width="40" height="23rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={50}/>  */}
+
+        <Blob top="50%" left="60%" width="40" height="23rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={50}/> 
+        
+          <div className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
+          aria-hidden="true">
+            <div
+                className="relative right-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem]
+                -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]
+                opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                style={{
+                  clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 180%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+          </div>
+          <div className="container px-6 py-12 mx-auto">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+            <div className="sm:col-span-2">
+            <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
+              Subscribe our newsletter to get update.
+            </h1>
+            {subscribed ? (
+              <p className="text-green-500 dark:text-green-400">Subscribed successfully!</p>
+            ) : (
+              <>
+                <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                  <input
+                    id="email"
+                    type="text"
+                    className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <button
+                    type="button"
+                    onClick={handleSubscribe}
+                    className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+                {error && <p className="text-red-500">{error}</p>}
+              </>
+            )}
+
+            </div>
+
+              <div>
+                <p className="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+                <div className="flex flex-col items-start mt-5 space-y-2">
+                  <a href="https://merakiui.com/components/marketing/footers" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
+                  <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Who We Are</a>
+                  <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Our Philosophy</a>
+                </div>
+              </div>
+
+              <div>
+                <p className="font-semibold text-gray-800 dark:text-white">Industries</p>
+                <div className="flex flex-col items-start mt-5 space-y-2">
+                  <a href="/#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Retail &amp; E-Commerce</a>
+                  <a href="/#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Information Technology</a>
+                  <a href="/#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Finance &amp; Insurance</a>
+                </div>
+              </div>
+
+            </div>
+            <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
+            <div className="flex items-center justify-between">
+              <a href="#">
+                <img className="w-auto h-7" src="" alt="" />
+              </a>
+              <div className="flex -mx-2">
+                <a href="https://twitter.com/Deepak6473" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Reddit">
+                <svg className="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/deepakkushwaha-893464152/" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                      <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                      <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                    </svg>
+                </a>
+                <a href="https://github.com/deepak814795" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+                  <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.026 2C7.13295 1.99937 2.96183 5.54799 2.17842 10.3779C1.395 15.2079 4.23061 19.893 8.87302 21.439C9.37302 21.529 9.55202 21.222 9.55202 20.958C9.55202 20.721 9.54402 20.093 9.54102 19.258C6.76602 19.858 6.18002 17.92 6.18002 17.92C5.99733 17.317 5.60459 16.7993 5.07302 16.461C4.17302 15.842 5.14202 15.856 5.14202 15.856C5.78269 15.9438 6.34657 16.3235 6.66902 16.884C6.94195 17.3803 7.40177 17.747 7.94632 17.9026C8.49087 18.0583 9.07503 17.99 9.56902 17.713C9.61544 17.207 9.84055 16.7341 10.204 16.379C7.99002 16.128 5.66202 15.272 5.66202 11.449C5.64973 10.4602 6.01691 9.5043 6.68802 8.778C6.38437 7.91731 6.42013 6.97325 6.78802 6.138C6.78802 6.138 7.62502 5.869 9.53002 7.159C11.1639 6.71101 12.8882 6.71101 14.522 7.159C16.428 5.868 17.264 6.138 17.264 6.138C17.6336 6.97286 17.6694 7.91757 17.364 8.778C18.0376 9.50423 18.4045 10.4626 18.388 11.453C18.388 15.286 16.058 16.128 13.836 16.375C14.3153 16.8651 14.5612 17.5373 14.511 18.221C14.511 19.555 14.499 20.631 14.499 20.958C14.499 21.225 14.677 21.535 15.186 21.437C19.8265 19.8884 22.6591 15.203 21.874 10.3743C21.089 5.54565 16.9181 1.99888 12.026 2Z">
+                    </path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      );
+}
+
+export default Footer
+
+
+
+working covered
+
+layout.tsx
+
+
+export default function ChatsLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
+
+
+    return (
+        <div className="flex-1 w-full flex flex-col max-w-6xl mx-auto">
+           {children}
+
+        </div>
+    );
+}
+
+
+
+
+chat/page.tsx
+
+
+import ChatList from '@/components/ChatList';
+import ChatPermissionError from '@/components/ChatPermissionError';
+import React from 'react'
+
+import Layout from '../layout'
+type Props={
+  params: {};
+  searchParams: {
+    error: string;
+  };
+};
+
+
+const ChatsPage = ({searchParams: {error}}: Props) => {
+
+  return (
+    <div>
+
+      {error && (
+        <div className='m-2'>
+          <ChatPermissionError />
+         </div> 
+      )}
+       
+      <ChatList />
+
+      {/* {showFooter && <Footer />} */}
+
+    </div>
+  )
+}
+
+export default ChatsPage
+
+
+// chat/chatid/page.tsx
+
+import React from 'react'
+import ChatInput from '@/components/ChatInput';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/auth';
+import { sortedMessagesRef } from '@/lib/converters/Message';
+import { getDocs } from 'firebase/firestore';
+import ChatMessages from '@/components/ChatMessages';
+import ChatMembersBadges from '@/components/ChatMembersBadges';
+import AdminControls from '@/components/AdminControls';
+import { chatMembersRef } from '@/lib/converters/ChatMembers';
+import { redirect } from 'next/navigation';
+
+type Props={
+  params:{
+    chatId: string;
+  };
+};
+
+const ChatPage = async({params : {chatId}}: Props) => {
+  const session=await getServerSession(authOptions);
+  const initialMessages=(await getDocs(sortedMessagesRef(chatId))).docs.map((doc)=>doc.data());
+
+    const hasAccess=(await getDocs(chatMembersRef(chatId))).docs
+      .map((doc)=>doc.id)
+      .includes(session?.user.id!);
+
+    if(!hasAccess) redirect("/chat?error=permission");
+
+
+
+  return (
+    <>
+      {/* admin controls */}
+      <AdminControls chatId={chatId} />
+      {/* chatmember badge */}
+      <ChatMembersBadges chatId={chatId} />
+        <div className='flex-1'>
+          <ChatMessages 
+            chatId={chatId}
+            session={session}
+            initialMessages={initialMessages}
+          />
+
+        </div>
+        <ChatInput chatId={chatId }/>
+     
+    </>
+  );
+}
+
+export default ChatPage
+
+
+// problem we solve
+
+// return (
+
+    //     <section className="bg-white dark:bg-gray-900">
+    //          <Blob top="29%" left="0%" width="30rem" height="45rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={70}/>
+
+    //          <Blob top="29%" left="60%" width="30rem" height="45rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={70}/>
+    //         <div className="container px-6 py-10 mx-auto">
+    //             <div className="text-left">
+    //             <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Breaking Barriers, Bridging Worlds</h1>
+    //               <div className="mt-2">
+    //                 <span className="inline-block w-40 h-1 bg-blue-500 rounded-full" />
+    //                 <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full" />
+    //                 <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full" />
+    //               </div>
+    //             </div>
+                
+                
+                
+
+    //         <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
+    //             <div>
+    //                 <Image className="relative z-10 object-cover w-full rounded-md h-96" src={imagethree.src} alt="" width={1000} height={1000}/>
+    //                 <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+    //                 <a className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+    //                    Language Barrier Elimination
+    //                 </a>
+    //                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+    //                 In a world where global communication is essential, our app tackles a significant challenge that is the language barrier. Moving to a new place or country can be daunting, especially when faced with unfamiliar local languages. Our app provides a transformative solution with its real-time translation feature and enabling seamless communication.The unique aspect of our app lies in its two-way translation – ensuring that whatever is said in one language is instantly translated back to the user&apos;s preferred language. 
+    //                 </p>
+    //                 {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
+    //                 </div>
+    //             </div>
+    //             <div>
+    //                 <Image className="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width={1000} height={1000}/>
+    //                 <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+    //                 <a  className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+    //                    Global Accessibility to Information
+    //                 </a>
+    //                 <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+    //                 Currently, there is no other chatting application that effectively addresses this language accessibility challenge. With 
+    //                 our app users can now engage in conversations, access content, and participate in discussions regardless of the language in which they are originally presented. The two-way translation ensures that information shared in any language is accessible to a broader audience, fostering inclusivity and enhancing global communication.
+    //                 </p>
+    //                 {/* <p className="mt-3 text-sm text-blue-500">20 October 2019</p> */}
+    //                 </div>
+    //             </div>
+
+                
+    //         </div>
+    //       </div>
+    //     </section>
+    //   );
+    // 
