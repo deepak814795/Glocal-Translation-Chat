@@ -9,6 +9,16 @@ Welcome to our SaaS chat app developed using Next.js and TypeScript, bringing gl
 
 There are over 7,000 languages spoken today but despite the diversity of languages, communication barriers continue to limit our ability to connect and understand each other.This is especially true in a globalized world where people are constantly travelling and connecting with others from different parts of the world.In fact, language barriers are often cited as a major hindrance to international trade and diplomacy. <br/> <br/> **Problems like this gave birth to GLOCAL - A TRANSLATION and also a CHAT app**.</span><br/> <br/>Glocal is a translation and chat app that helps you translate your native language into any other language in the world with relative ease.It also helps to communicate with anyone, anywhere in the world with a different language. When you receive a message in any language, it automatically translates to your chosen language. Similarly, when you send a message in any language to another person, it is converted to their preferred language. This two-way translation not only ensures seamless conversation but also eliminates the need for a common medium language.
 
+## Techstack Used
+
+### ***Next Js***
+### ***React Js***
+### ***Typescript***
+### ***Framer Motion***
+### ***Google Cloud AI Service***
+### ***Zustand***
+### ***Firebase / Firestore***
+
 ## Application Workflow
 
 Upon registering or logging in, users are assigned unique identifiers by Firebase Authentication, ensuring secure access to their account information. This user data, encompassing details like display names and profile pictures, is stored in Firebase Realtime Database or Firestore, maintaining a personalized experience for each user. The app offers flexibility with a choice between a free plan and a paid plan. The free plan, while providing access to essential features, may impose constraints on factors like message limits or storage capacity. Firebase's pricing plans, tailored to usage, enable users to seamlessly transition to a paid plan for enhanced scalability and access to additional functionalities. This strategic approach to user plans not only allows users to tailor their experience based on their needs but also provides a scalable infrastructure, making the chat app adaptable to varying usage patterns. The seamless integration of Firebase services facilitates a smooth user journey while ensuring the app's sustainability and growth.
