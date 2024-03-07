@@ -43,11 +43,11 @@ const Header = async () => {
                 {/* language select*/}
                 <LanguageSelect />
 
-              <Link href="/">
+              {/* <Link href="/">
                  <button className="font-semibold  hover:bg-gray-100 hover transition-all duration-300 ease-in-out  border-gray-200 p-2 rounded-md dark:hover:bg-gray-800 text-sm">
                    Home
                  </button> 
-              </Link>
+              </Link> */}
 
                {/* <Dropdownmenu /> */}
 
@@ -58,11 +58,11 @@ const Header = async () => {
 
 
 
-                <Link href="/system-design">
+                {/* <Link href="/system-design">
                  <button className="font-semibold  hover:bg-gray-100 hover transition-all duration-300 ease-in-out  border-gray-200 p-2 rounded-md dark:hover:bg-gray-800 text-sm hidden lg:block">
                    System Design
                  </button> 
-                </Link>
+                </Link> */}
 
                  {session ? (
 
@@ -74,7 +74,7 @@ const Header = async () => {
                   </>
 
                  ) : (
-                  <Link href="/pricing">Pricing</Link>
+                  <Link href="/pricing"><span className='font-semibold text-sm'>Pricing</span></Link>
                   
                  
                  )}

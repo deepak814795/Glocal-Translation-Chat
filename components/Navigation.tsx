@@ -142,6 +142,17 @@ export default function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList>
 
+
+      <div className="">
+        <NavigationMenuItem>
+          <Link href="/" rel="noopener noreferrer" target="_blank" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Home
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem> 
+        </div>
+
        <div className="hidden lg:block">
         <NavigationMenuItem >
           <NavigationMenuTrigger>About</NavigationMenuTrigger> 
@@ -188,6 +199,16 @@ export default function NavigationMenuDemo() {
           <Link href="https://deepaks-organization-4.gitbook.io/saas-app-docs/~/changes/HBTDL3rRtqnMuPQW3uZk?r=IG2XYR2GIXtuirTq6Byq" rel="noopener noreferrer" target="_blank" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Documentation
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem> 
+        </div>
+
+        <div className="hidden lg:block">
+        <NavigationMenuItem>
+          <Link href="/system-design" rel="noopener noreferrer" target="_blank" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              System Design
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem> 
