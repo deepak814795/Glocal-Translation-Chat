@@ -145,7 +145,7 @@ export default function NavigationMenuDemo() {
 
       <div className="">
         <NavigationMenuItem>
-          <Link href="/" rel="noopener noreferrer" target="_blank" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Home
             </NavigationMenuLink>
