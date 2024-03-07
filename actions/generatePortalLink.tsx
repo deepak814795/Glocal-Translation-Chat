@@ -38,5 +38,5 @@
         return_url: returnUrl,
     });
 
-    redirect(stripeSession.url);    
+    redirect(stripeSession.url);      
  }
