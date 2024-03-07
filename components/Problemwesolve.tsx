@@ -3,6 +3,8 @@
 import * as React from 'react'
 import Test from '@/components/Test'
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import Image from "next/image"
+import imagethree from "@/images/customchatimage/imagethree.png"
 
 const Problemwesolve = () => {
 
@@ -26,10 +28,54 @@ const Problemwesolve = () => {
   ];
   return(
     <div className=''>
-      <div className="flex flex-col items-center justify-center h-[2rem] pb-[-2rem] ">
+
+      <div className="flex flex-col items-center justify-center h-[2rem] pb-[-2rem] justify-center items-center">
             <TypewriterEffectSmooth words={words} />
       </div>
-      <Test/>
+      <div className='hidden lg:block'>
+        <Test/>
+      </div>
+      
+
+
+      <section className="bg-white dark:bg-gray-900 block lg:hidden">
+            
+            <div className="container px-6 py-10 mx-auto">
+                
+               
+                
+
+            <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
+                <div>
+                    <Image className="relative z-10 object-cover w-full rounded-md h-96" src={imagethree.src} alt="" width={1000} height={1000}/>
+                    <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+                    <a className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                       Language Barrier Elimination
+                    </a>
+                    <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    In a world where global communication is essential, our app tackles a significant challenge that is the language barrier. Moving to a new place or country can be daunting, especially when faced with unfamiliar local languages. Our app provides a transformative solution with its real-time translation feature and enabling seamless communication.The unique aspect of our app lies in its two-way translation – ensuring that whatever is said in one language is instantly translated back to the user&apos;s preferred language. 
+                    </p>
+                    {/* <p className="mt-3 text-sm text-blue-500">21 October 2019</p> */}
+                    </div>
+                </div>
+                <div>
+                    <Image className="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width={1000} height={1000}/>
+                    <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+                    <a  className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                       Global Accessibility to Information
+                    </a>
+                    <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Currently, there is no other chatting application that effectively addresses this language accessibility challenge. With 
+                    our app users can now engage in conversations, access content, and participate in discussions regardless of the language in which they are originally presented. The two-way translation ensures that information shared in any language is accessible to a broader audience, fostering inclusivity and enhancing global communication.
+                    </p>
+                    {/* <p className="mt-3 text-sm text-blue-500">20 October 2019</p> */}
+                    </div>
+                </div>
+
+                
+            </div>
+          </div>
+        </section>
        
     </div>
 

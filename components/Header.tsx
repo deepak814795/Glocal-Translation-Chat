@@ -51,16 +51,18 @@ const Header = async () => {
 
                {/* <Dropdownmenu /> */}
 
-
-                <Navigation />
+                <div className=''>
+                  <Navigation />
+                </div>
+                
 
 
 
                 <Link href="/system-design">
-                 <button className="font-semibold  hover:bg-gray-100 hover transition-all duration-300 ease-in-out  border-gray-200 p-2 rounded-md dark:hover:bg-gray-800 text-sm">
+                 <button className="font-semibold  hover:bg-gray-100 hover transition-all duration-300 ease-in-out  border-gray-200 p-2 rounded-md dark:hover:bg-gray-800 text-sm hidden lg:block">
                    System Design
                  </button> 
-              </Link>
+                </Link>
 
                  {session ? (
 

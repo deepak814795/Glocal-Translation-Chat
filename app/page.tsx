@@ -18,6 +18,9 @@ import Sparkles from "@/components/ui/Sparkles";
 import ClientsUsingSolution from "@/components/ClientsUsingSolution"
 import Hero from "@/components/Hero"
 import SwipeUpPrompt from "@/components/ui/swipeUpPrompt";
+import { StickyScrollRevealDemo } from "@/components/Solveproblemsscroll";
+import Faq from "@/components/Faq"
+
 
 
 
@@ -122,7 +125,11 @@ export default function Home() {
 
 
               <SwipeUpPrompt/>
-              <Hero />
+
+              <div className="hidden lg:block">
+                <Hero />
+              </div>
+              
               
 
               {/* <div className="mt-16 flow-root sm:mt-24">
@@ -147,13 +154,18 @@ export default function Home() {
           
           <Problemwesolve />
           <Features />
+          <StickyScrollRevealDemo/>
           
           <Ourcomponents />
           <Learn />
           <ClientsUsingSolution/>
+          <Faq/>
           <Testimonials />
           {/* <Blob top="97%" left="60%" width="40" height="33rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={30}/>  */}
           <Footer />
+
+
+      
           
           
           

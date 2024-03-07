@@ -52,8 +52,8 @@ function TabsDemo() {
         imageUrl: sol3,
       },
       {
-        title: "Collabaration",
-        value: "Collabaration",
+        title: "Collaboration",
+        value: "Collaboration",
         content: (
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
             <p>Services tab</p>
@@ -71,22 +71,12 @@ function TabsDemo() {
         ),
         imageUrl: sol6,
       },
-      {
-        title: "Responsivness",
-        value: "Responsivness",
-        content: (
-          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-            <p>Services tab</p>
-          </div>
-        ),
-        imageUrl: sol5,
-      },
     // ... other tabs with their respective content and imageUrl
   ];
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40">
-      <Tabs tabs={tabs} />
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+    <Tabs tabs={tabs} />
     </div>
   );
 }
@@ -94,15 +84,15 @@ function TabsDemo() {
 const DummyContent: React.FC<DummyContentProps> = ({ imageUrl }) => {
   return (
     <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-      <p>Tab Content</p>
-      <Image
-        src={sol1.src}
-        alt="dummy image"
-        width="1000"
-        height="1000"
-        className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
-      />
-    </div>
+    <p>Tab Content</p>
+    <Image
+      src={sol1.src}
+      alt="dummy image"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto sm:h-[100%]"
+    />
+  </div>
   );
 };
 

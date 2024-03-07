@@ -35,7 +35,7 @@ export const TypewriterEffect = ({
           opacity: 1,
         },
         {
-          duration: 0.3,
+          duration: 0.1,
           delay: stagger(0.1),
           ease: "easeInOut",
         }
@@ -71,7 +71,7 @@ export const TypewriterEffect = ({
   return (
     <div
       className={cn(
-        "text-base sm:text-xl md:text-3xl lg:text-5xl font-bold text-center",
+        "text-base sm:text-xl md:text-9xl lg:text-5xl font-bold text-center",
         className
       )}
     >
@@ -84,7 +84,7 @@ export const TypewriterEffect = ({
           opacity: 1,
         }}
         transition={{
-          duration: 0.8,
+          duration: 0.2,
           repeat: Infinity,
           repeatType: "reverse",
         }}
@@ -171,7 +171,7 @@ export const TypewriterEffectSmooth = ({
           opacity: 1,
         }}
         transition={{
-          duration: 0.8,
+          duration: 0.2,
 
           repeat: Infinity,
           repeatType: "reverse",

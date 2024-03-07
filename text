@@ -1,0 +1,14 @@
+To show content on different screen sizes:
+
+Small screens: block sm:hidden md:hidden lg:hidden xl:hidden
+Medium screens: hidden sm:block md:hidden lg:hidden xl:hidden
+Large screens: hidden sm:hidden md:block lg:hidden xl:hidden
+Extra-large screens: hidden sm:hidden md:hidden lg:block xl:hidden
+
+
+To hide content on different screen sizes:
+
+Small screens: hidden sm:block md:block lg:block xl:block
+Medium screens: block sm:hidden md:block lg:block xl:block
+Large screens: block sm:block md:hidden lg:block xl:block
+Extra-large screens: block sm:block md:block lg:block xl:hidden

@@ -91,7 +91,50 @@ const resources: { title: string; href: string; description: string }[] = [
       href: "https://deepaks-organization-4.gitbook.io/saas-app-docs/~/changes/HBTDL3rRtqnMuPQW3uZk?r=IG2XYR2GIXtuirTq6Byq",
       description:
         "Explore detailed guides, API references, and examples that will streamline your development journey and ensure seamless integration with our platform.",
+    }, 
+  ]
+
+
+
+  const explore: { title: string; href: string; description: string }[] = [
+    {
+      title: "About Creator",
+      href: "/about-creator",
+      description:
+        "Tech enthusiast turning ideas into impactful solutions.",
     },
+    {
+      title: "Documentation",
+      href: "https://deepaks-organization-4.gitbook.io/saas-app-docs/~/changes/HBTDL3rRtqnMuPQW3uZk?r=IG2XYR2GIXtuirTq6Byq",
+      description:
+        "Explore detailed guides and API references",
+    },
+    {
+      title: "Frequently Asked Questions",
+      href: "/faqs",
+      description:
+        "Discover commonly asked questions",
+    },
+    {
+      title: "Blogs",
+      href: "/blogs",
+      description:
+        "Dive into our blog section",
+    },
+    {
+      title: "System Design",
+      href: "/system-design",
+      description:
+        "Deep Dive Design",
+    },
+    {
+      title: "Knowledge Center",
+      href: "/tutorials",
+      description:
+        "Explore essential lessons",
+    },
+    
+   
   ]
 
 export default function NavigationMenuDemo() {
@@ -99,11 +142,9 @@ export default function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList>
 
-        
-
-
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>About Us</NavigationMenuTrigger> 
+       <div className="hidden lg:block">
+        <NavigationMenuItem >
+          <NavigationMenuTrigger>About</NavigationMenuTrigger> 
           {/* This about us is comming from component array above */}
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -120,7 +161,9 @@ export default function NavigationMenuDemo() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-
+        </div>
+ 
+        <div className="hidden lg:block">
         <NavigationMenuItem>
           <NavigationMenuTrigger>Resources</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -137,9 +180,10 @@ export default function NavigationMenuDemo() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+        </div>
 
 
-
+        <div className="hidden lg:block">
         <NavigationMenuItem>
           <Link href="https://deepaks-organization-4.gitbook.io/saas-app-docs/~/changes/HBTDL3rRtqnMuPQW3uZk?r=IG2XYR2GIXtuirTq6Byq" rel="noopener noreferrer" target="_blank" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -147,10 +191,32 @@ export default function NavigationMenuDemo() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem> 
+        </div>
+
+        {/* only render on smaller screens  */}
+
+        <div className="block lg:hidden">
+        <NavigationMenuItem >
+          <NavigationMenuTrigger>Explore</NavigationMenuTrigger> 
+          {/* This about us is comming from component array above */}
+          <NavigationMenuContent>
+            <ul className="grid w-[400px] gap-1 p-1 md:w-[500px] md:grid-cols-2 lg:w-[600px] sm:w-[200px]">
+
+              {explore.map((explore) => (
+                <ListItem
+                  key={explore.title}
+                  title={explore.title}
+                  href={explore.href}
+                >
+                  {explore.description}
+                </ListItem>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        </div>
 
         
-
-
       </NavigationMenuList>
     </NavigationMenu>
 

@@ -5,12 +5,12 @@ import  InfiniteMovingCards  from "@/components/ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <>
+    <div className="hidden lg:block">
 
         <div className="mt-40 mx-[31rem]">
         <h3 className="max-w-2xl mx-auto text-5xl font-semibold tracking-tight text-gray-800 xl:text-5xl dark:text-white">
-        Clients and   {" "}
-          <span className="text-blue-500">Our Solutions</span>
+        Our Clients{" "}
+          <span className="text-blue-500">& Solutions</span>
           </h3>
         </div>
 
@@ -32,14 +32,14 @@ export function InfiniteMovingCardsDemo() {
             speed="normal"
         />
         </div>
-    </>
+    </div>
   );
 }
 
 const testimonials = [
   {
     quote:
-      "ZUSTAND",
+      "ZUSTA",
     name: "",
     title: "",
   },
@@ -123,13 +123,13 @@ const testimonials = [
   },
   {
     quote:
-      "NEUTRON",
+      "CRED",
     name: "",
     title: "",
   },
   {
     quote:
-      "BLACKBOX",
+      "VISION",
     name: "",
     title: "",
   },

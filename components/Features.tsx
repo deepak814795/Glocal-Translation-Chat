@@ -7,80 +7,24 @@ import  PinContainer  from "@/components/ui/3d-pin";
 
 const Features = () => {
     return (
-        <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900 h-[12rem] md:h-[25rem] sm:h-[50rem] hidden lg:block">
 
-        <LampContainer className='h-[50rem]'>
-          <motion.h1
-            initial={{ opacity: 0.5, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.3,
-              duration: 0.8,
-              ease: "easeInOut",
-            }}
-            className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
-          >
-            Boost Your Productivity <br /> Start Using Our App Today
-          </motion.h1>
-
-          <div className="h-[4rem] w-full flex pt-[15rem] pr-[2rem] pl-[2rem]">
-            <PinContainer
-              title="Glocal"
-              href="https://github.com/deepak814795"
-            >
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                Two-Way Translation
-                </h3>
-                <div className="text-base !m-0 !p-0 font-normal">
-                  <span className="text-slate-400">
-                  Ensure a two-way communication process by translating messages not only into the recipient&apos;s language but also back into the sender&apos;s language. This bidirectional translation feature enhances understanding and engagement between users speaking different languages.
-                  </span>
-                </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-              </div>
-            </PinContainer>
-
-            <PinContainer
-              title="Glocal"
-              href="https://github.com/deepak814795"
-            >
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                Private Group Sessions
-                </h3>
-                <div className="text-base !m-0 !p-0 font-normal">
-                  <span className="text-slate-400 ">
-                  Take global communication to new heights with the Group Chat Translation enhancement. <br/>This feature empowers users in private groups to break language barriers by seamlessly translating group conversations in real-time.
-                  </span>
-                </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-              </div>
-            </PinContainer>
-
-           
-
-            <PinContainer
-              title="Glocal"
-              href="https://github.com/deepak814795"
-            >
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
-                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                 End to End Encryption
-                </h3>
-                <div className="text-base !m-0 !p-0 font-normal">
-                  <span className="text-slate-400 ">
-                    Communicate with other, without fear of having any data leaks. Your messages are end to end encrypted so no one can read it even if they got leaked.
-                    <br/> <br/>Google&apos;s database is highly secure so no one can ever break into your messages.
-                  </span>
-                </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-              </div>
-            </PinContainer>
-          </div>
-
-        </LampContainer>
-        </section>
+    <LampContainer className=''>
+      <motion.h1
+        initial={{ opacity: 0.5, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+      >
+       Boost Your Productivity <br /> Start Using Our App Today  <br/> <br/>
+       <p className='text-2xl'>Explore Our Features</p>
+      </motion.h1>
+    </LampContainer>
+    </section>
       );
 }
 

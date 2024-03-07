@@ -33,6 +33,7 @@ const SystemDesign: React.FC = () => {
  return (
    
   <div className='bg-white dark:bg-gray-900'>
+      <div className='hidden lg:block'>
        <MacbookScroll
         title={
           <span>
@@ -50,7 +51,9 @@ const SystemDesign: React.FC = () => {
         src={`/linear.webp`}
         showGradient={false}
       />
-    {/* <header>
+      </div>
+      
+    <header className='block lg:hidden'>
       <div
         className="w-full bg-center bg-cover h-[40rem]"
         style={{
@@ -66,7 +69,7 @@ const SystemDesign: React.FC = () => {
           </div>
         </div>
       </div>
-    </header> */}
+    </header>
 
   {/* system design problem we aim to solve*/}
 
