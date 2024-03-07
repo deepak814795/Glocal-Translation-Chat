@@ -15,7 +15,7 @@ function useAdminId({ chatId }: { chatId: string }) {
     fetchAdminStatus();
   }, [chatId]);
 
-  return adminId;
+   return adminId;
 }
 
 export default useAdminId;

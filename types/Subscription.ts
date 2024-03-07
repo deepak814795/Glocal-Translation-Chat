@@ -4,7 +4,7 @@ import {DocumentData, DocumentReference, Timestamp} from "firebase/firestore"
 import {Stripe} from "stripe"
 
 export interface Subscription{
-    id?:string;
+     id?:string;
 
 
     metadata: {

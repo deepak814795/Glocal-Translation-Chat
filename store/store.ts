@@ -19,7 +19,7 @@ export type LanguagesSupported =
    | "it"
    | "bho"
    | "pl";
-export const LanguagesSupportedMap: Record<LanguagesSupported, string>= {
+export const LanguagesSupportedMap: Record<LanguagesSupported,  string>= {
     en: "English",
     hi: "Hindi",
     es: "Spanish",
