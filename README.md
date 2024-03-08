@@ -78,7 +78,31 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 
 ## Getting Started
 
-First, run the development server:
+Set the env variables
+```
+
+GOOGLE_CLIENT_ID=
+
+GOOGLE_CLIENT_SECRET=
+
+NEXTAUTH_SECRET=
+
+FIREBASE_PROJECT_ID=
+
+FIREBASE_CLIENT_EMAIL=
+
+STRIPE_SECRET_KEY=
+
+STRIPE_PRICE_KEY=
+
+STRIPE_WEBHOOK_SECRET=
+
+NEXTAUTH_URL=http://localhost:3000
+
+
+```
+
+Run the development server:
 
 ```bash
 npm run dev
