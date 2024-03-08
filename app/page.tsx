@@ -20,6 +20,7 @@ import Hero from "@/components/Hero"
 import SwipeUpPrompt from "@/components/ui/swipeUpPrompt";
 import { StickyScrollRevealDemo } from "@/components/Solveproblemsscroll";
 import Faq from "@/components/Faq"
+import Pricingtable from "@/components/Pricingtable";
 
 
 
@@ -155,12 +156,16 @@ export default function Home() {
           <Problemwesolve />
           <Features />
           <StickyScrollRevealDemo/>
+
+          <Pricingtable/>
           
           <Ourcomponents />
           <Learn />
           <ClientsUsingSolution/>
           <Faq/>
           <Testimonials />
+
+         
           {/* <Blob top="97%" left="60%" width="40" height="33rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={30}/>  */}
           <Footer />
 
