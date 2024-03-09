@@ -19,23 +19,25 @@ jobs:
         with:
           submodules: true
           lfs: false
-
-      # Add the setup-node action here to ensure correct Node.js version
       - uses: actions/setup-node@v3
         with:
-          node-version: 18.17.0  # Adjust the version if needed (>= 18.17.0 for Next.js)
+          node-version: 18.17.0
 
-      - name: Install dependencies (adjust for your package manager)
-        run: npm install  # Or yarn install if you use yarn
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_BUSH_0EE88AB00 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: "/" # App source code path
+          api_location: "" # Api source code path - optional
+          output_location: "" # Built app content directory - optional
+          ###### End of Repository/Build Configurations ######
 
-      # Your build and deploy steps here (replace with your specific commands)
-      - name: Build Next.js app
-        run: next build
-
-      - name: Deploy to Azure Static Web Apps (replace with your deployment commands)
-        # ... your deployment steps ...
-
-  close_pull_request_job:  # Consider removing this job if not needed
+  close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
     name: Close Pull Request Job
