@@ -19,9 +19,12 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
+      - name: Setup Node.js
+        run: |
+          curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+          sudo apt-get install -y nodejs
+      - name: Verify Node.js version
+        run: node --version
 
       - name: Build And Deploy
         id: builddeploy
