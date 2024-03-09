@@ -43,8 +43,14 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 
   ![imgonline-com-ua-twotoone-36hRmU5BQb](https://github.com/deepak814795/saas-app-chat/assets/91387970/098d7ccf-7a3a-432b-a429-77dce05c26c5)
 
-### ***In Free plan users can only have two members per room and can send only 20 messages per room.***
- ![imgonline-com-ua-twotoone-xqi0IpHkvs](https://github.com/deepak814795/saas-app-chat/assets/91387970/f9528847-90cc-454b-8d31-c6e3e5db53f6)
+### ***In Free plan users can only have two members per room***
+ ![Screenshot (903)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/6b462d2b-a4d6-4ad9-817b-861dea1fb43e)
+
+
+ ### ***In Free plan users can only send only 20 messages per room***
+
+![Screenshot (904)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/28dd30dc-d9d7-4109-b72d-db1013b95bcc)
+
 
 ### ***Stripe Payment to Purchase Pro Plan***
  **Test Card Number**: 4242 4242 4242 4242 <br/>
