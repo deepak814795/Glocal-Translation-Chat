@@ -21,6 +21,10 @@ import hld from '../images/customchatimage/hld.png'
 import scalibility from '../images/customchatimage/scalibility.png'
 import Link from 'next/link'
 import  MacbookScroll  from "@/components/ui/macbook-scroll";
+import workflow from "@/images/customchatimage/workflow.png"
+import sequencebg from "@/images/customchatimage/model.png"
+
+
 
 
 
@@ -93,7 +97,7 @@ const SystemDesign: React.FC = () => {
         />
           <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
             <h1
-              className="block mt-4 text-2xl font-semibold text-gray-800 dark:text-white mt-[-40px]"
+              className="block mt-4 text-2xl font-semibold text-gray-800 dark:text-white mt-[-30px]"
             >
               Our Objective
             </h1>
@@ -119,7 +123,7 @@ const SystemDesign: React.FC = () => {
 
 
     <section className="bg-white dark:bg-gray-900">
-        <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+        <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[40rem] lg:py-16 lg:flex-row lg:items-center">
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
             <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Application <span className='text-blue-500'>Requirements</span></h1>
@@ -181,12 +185,11 @@ const SystemDesign: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-            <Image className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src={user.src} alt="glasses photo"
+          <div className="flex items-center justify-center w-full h-100 lg:w-1/2 hidden lg:block">
+            {/* <Image className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src={workflow.src} alt="glasses photo"
             width={1200}
-            height={1200}
-            
-            />
+            height={1200}   
+            /> */}
           </div>
         </div>
     </section>
@@ -355,13 +358,13 @@ const SystemDesign: React.FC = () => {
                   </div>
         <div className="mt-8 lg:-mx-6 lg:flex lg:items-center">
         <Image
-            src={metadata.src}
+            src={sequencebg.src}
             alt=""
-            width={800}
-            height={1100}
+            width={500}
+            height={500}
             className="rounded-md" // Adjusted width here
         />
-          <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+          <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
             <h1
               className="block mt-4 text-2xl font-semibold text-gray-800 dark:text-white mt-[-25px]"
             >
@@ -369,10 +372,32 @@ const SystemDesign: React.FC = () => {
             </h1>
 
             <p className="mt-3 text-md text-gray-500 dark:text-gray-300 md:text-md">
-            In our case, it is obvious that the database is used primarily as a key-value store. No complex relational ops such as join are needed. In our case, we could use NoSQL databases such as Firebase Firestore. In firebase, records are sharded by the partition keys. A key observation here is that the message ID is used to determine the ordering. The message Id is not globally unique, as its scope is determined by the partition key. The system will never retrieve an item by its message ID alone. <br/>
-            The firebaseRole in subscription_id is used to determine pro and non pro user, if firebaseRole is equals &quot;pro&quot;, this means user with &quot;user_id&quot; is pro member.<br/>
-            The language_to_id and language_from _id is used for translation purpose by Google Cloud Artificial Intelligence Service. <br/>
-            We need two tables to capture the relationship between users and groups. The Group Membership table is used for message broadcasting, we need to figure out who gets the message. 
+                In the proposed database model, the emphasis is on leveraging NoSQL databases like Firebase Firestore due to their inherent suitability for key-value storage and scalability. Firebase Firestore employs partition keys to shard or distribute records across the database, promoting efficient data distribution and retrieval.
+
+                <br/>
+                <br/>
+
+                The uniqueness of message IDs is confined within the scope of partition keys, which means that a message ID is not globally unique but rather unique within its partition. This design choice aligns with the distributed nature of NoSQL databases and ensures efficient data organization.
+
+                <br/>
+                <br/>
+
+                The role of `firebaseRole` within the `subscription_id` field introduces a mechanism for categorizing users into pro and non-pro members. This information is vital for determining subscription status and privileges within the system.
+
+                <br/>
+                <br/>
+
+                The involvement of `language_to_id` and `language_from_id` points to a language translation feature facilitated by the Google Cloud Artificial Intelligence Service. These fields likely store identifiers linking to specific languages, enabling seamless translation services within the application.
+
+                <br/>
+                <br/>
+
+                To manage relationships between users and groups, two tables are suggested. The Group Membership table is designed to support message broadcasting, a crucial functionality that involves determining the intended recipients of a message within specific user groups.
+
+                <br/>
+                <br/>
+
+                In summary, the proposed database model is tailored for efficient key-value storage and retrieval, utilizes NoSQL databases, incorporates partition keys for data distribution, and addresses specific functionalities such as user roles, language translation, and group messaging. This design reflects a thoughtful consideration of the system's requirements and the characteristics of the chosen database technology.
             </p>
             
           </div>
