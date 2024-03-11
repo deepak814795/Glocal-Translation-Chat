@@ -397,7 +397,7 @@ const SystemDesign: React.FC = () => {
                 <br/>
                 <br/>
 
-                In summary, the proposed database model is tailored for efficient key-value storage and retrieval, utilizes NoSQL databases, incorporates partition keys for data distribution, and addresses specific functionalities such as user roles, language translation, and group messaging. This design reflects a thoughtful consideration of the system's requirements and the characteristics of the chosen database technology.
+                In summary, the proposed database model is tailored for efficient key-value storage and retrieval, utilizes NoSQL databases, incorporates partition keys for data distribution, and addresses specific functionalities such as user roles, language translation, and group messaging. This design reflects a thoughtful consideration of the system&apos;s requirements and the characteristics of the chosen database technology.
             </p>
             
           </div>
