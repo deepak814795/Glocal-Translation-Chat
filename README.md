@@ -43,15 +43,16 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 
 ### ***PRO plan supports multiple languages while free supports only two languages.***
 
-  ![imgonline-com-ua-twotoone-36hRmU5BQb](https://github.com/deepak814795/saas-app-chat/assets/91387970/098d7ccf-7a3a-432b-a429-77dce05c26c5)
+ ![image (3)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/8c71db28-a9d1-478c-8a4e-3c50cfa86dd5)
 
-### ***In Free plan users can only have two members per room***
- ![Screenshot (903)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/6b462d2b-a4d6-4ad9-817b-861dea1fb43e)
+### ***In Free plan users can only have two members per room while PRO plan supports unlimited members***
+ ![image (1)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/4f56b534-2118-4ca2-879a-935e215f191b)
 
 
- ### ***In Free plan users can only send only 20 messages per room***
+ ### ***In Free plan users can only send only 20 messages per room while PRO plan supports unlimited text messages***
 
-![Screenshot (904)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/28dd30dc-d9d7-4109-b72d-db1013b95bcc)
+![image (2)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/3e25ac81-60b8-46d1-8a50-49ff60dccbc2)
+
 
 
 ### ***Stripe Payment to Purchase Pro Plan***
@@ -86,26 +87,10 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 
 ## Getting Started
 
-Set the env variables
+
 ```
-
-GOOGLE_CLIENT_ID=
-
-GOOGLE_CLIENT_SECRET=
-
-NEXTAUTH_SECRET=
-
-FIREBASE_PROJECT_ID=
-
-FIREBASE_CLIENT_EMAIL=
-
-STRIPE_SECRET_KEY=
-
-STRIPE_PRICE_KEY=
-
-STRIPE_WEBHOOK_SECRET=
-
-NEXTAUTH_URL=http://localhost:3000
+Set the env variables
+in .env
 
 
 ```
