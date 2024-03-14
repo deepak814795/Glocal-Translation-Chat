@@ -38,24 +38,10 @@ const Footer = () => {
 
     return (
 
-        <footer className="bg-white dark:bg-gray-900">
-        {/* <Blob top="350%" left="0%" width="40" height="23rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={50}/>  */}
-
-        {/* <Blob top="50%" left="60%" width="40" height="23rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={30}/>  */}
-        
-          <div className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
-          aria-hidden="true">
-            <div
-                className="relative right-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem]
-                -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]
-                opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                style={{
-                  clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 180%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                }}
-            />
-          </div>
+        <footer className="bg-white dark:bg-black">
+       
           <div className="container px-6 py-12 mx-auto">
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4 ">
             <div className="sm:col-span-2">
             <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
               Subscribe our newsletter to get update.
@@ -88,9 +74,9 @@ const Footer = () => {
               </>
             )}
 
-            </div>
+           </div>
 
-              <div>
+              <div className='block lg:hidden'>
                 <p className="font-semibold text-gray-800 dark:text-white">Quick Link</p>
                 <div className="flex flex-col items-start mt-5 space-y-2">
                   <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500" onClick={() => window.location.href = '/'}>Home</a>
@@ -99,7 +85,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div>
+              <div className='block lg:hidden'>
                 <p className="font-semibold text-gray-800 dark:text-white">Resources</p>
                 <div className="flex flex-col items-start mt-5 space-y-2">
                   <Link href="/blogs" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Blogs</Link>
@@ -109,11 +95,128 @@ const Footer = () => {
               </div>
 
             </div>
+
+
+
+
+            <div className='pt-20 hidden lg:block'>
+     <section className="flex flex-col md:flex p-10  md:py-20  md:items-center md:justify-center bg-[#EFF0FF] h-[30rem] rounded-3xl">
+                <div className="md:flex md:space-x-28 md:px-0 md:py-20">
+                    <div className="flex-col space-y-6 flex text-[#3d2e7c]">
+                        <div className="pt-10">PRODUCT</div>
+                        <div className="font-light space-y-4 text-sm">
+
+                            <div>
+                              <Link href="/">Home</Link>
+                            </div>
+                            <div>
+                              <Link href="about-creator">Creator</Link>
+                            </div>
+                            <div>
+                              <Link href="https://deepaks-organization-4.gitbook.io/saas-app-docs/~/changes/HBTDL3rRtqnMuPQW3uZk?r=IG2XYR2GIXtuirTq6Byq">Docs</Link>
+                            </div>
+                            <div>
+                              <Link href="/blogs">Blogs</Link>
+                            </div>
+                            <div>
+                              <Link href="/tutorials">Tutorials</Link>
+                            </div>
+    
+                </div>
+                        </div>
+
+                        <div className="flex-col space-y-6 flex text-[#3d2e7c]">
+                            <div className="pt-10">USE CASES</div>
+                            <div className="font-light space-y-4 text-sm">
+
+                            <div>Company</div>
+                            <div>Leadership</div>
+                            <div>Diversity</div>
+                            <div>Customers</div>
+                            <div>Diversity</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="flex-col space-y-6 flex text-[#3d2e7c]">
+                            <div className="pt-10">FOR BUSINESS</div>
+                            <div className="font-light space-y-4 text-sm">
+
+                            <div>Project Management</div>
+                            <div>Goal Management</div>
+                     
+                            <div>Increase Productivity</div>
+                            <div>Work Management</div>
+                            <div>Project Planning</div>
+
+                            </div>
+
+                        </div>
+
+                        <div className="flex-col space-y-6 flex text-[#3d2e7c]">
+                            <div className="pt-10">DOWNLOADS</div>
+                            <div className="font-light space-y-4 text-sm">
+
+                            <div>Help</div>
+                            <div>Forum</div>
+                     
+                            <div>Support</div>
+                            <div>Work Management</div>
+                            <div>Project Planning</div>
+
+                            </div>
+
+                        </div>
+
+                        <div className="flex-col space-y-6 flex text-[#3d2e7c]">
+                            <div className="pt-10">RESOURCES</div>
+                            <div className="font-light space-y-4 text-sm">
+
+                            <div>Help</div>
+                            <div>Forum</div>
+                     
+                            <div>Support</div>
+                            <div>Work Management</div>
+                            <div>Project Planning</div>
+
+                            </div>
+
+                        </div>
+
+                        <div className="flex-col space-y-6 flex text-[#3d2e7c]">
+                            <div className="pt-10">Company</div>
+                            <div className="font-light space-y-4 text-sm">
+
+                            <div>Help</div>
+                            <div>Forum</div>
+                     
+                            <div>Support</div>
+                            <div>Work Management</div>
+                            <div>Project Planning</div>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+
+                </div>
+
+        </section>
+    </div>
+
+
+
+
             <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
+
+            
             <div className="flex items-center justify-between">
-              {/* <a href="#">
-                <Image className="w-auto h-7" src="" alt="" width={100} height={100}/>
-              </a> */}
+             
               <div className="flex -mx-2">
                 <a href="https://twitter.com/Deepak6473" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Reddit">
                 <svg className="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

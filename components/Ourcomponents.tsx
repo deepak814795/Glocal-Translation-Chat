@@ -8,7 +8,7 @@ import Meteors from "@/components/Meteors"
 const Ourcomponents = () => {
     return (
         //Explore the Essential Components Powering Our App!
-        <section className="bg-white dark:bg-gray-900 pt-[5rem]">
+        <section className="bg-white dark:bg-black pt-[5rem]">
 
           <div className="container px-6 py-10 mx-auto">
           <h3 className="max-w-2xl mx-auto text-5xl font-semibold tracking-tight text-gray-800 xl:text-6xl dark:text-white">

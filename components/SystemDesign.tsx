@@ -36,7 +36,7 @@ const SystemDesign: React.FC = () => {
  const url=" https://images.unsplash.com/photo-1622737133809-d95047b9e673?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
  return (
    
-  <div className='bg-white dark:bg-gray-900'>
+  <div className='bg-[#e3f3ff] dark:bg-black'>
       <div className='hidden lg:block'>
        <MacbookScroll
         title={
@@ -77,7 +77,7 @@ const SystemDesign: React.FC = () => {
 
   {/* system design problem we aim to solve*/}
 
-  <section className="bg-white dark:bg-gray-900">
+  <section className="bg-[#d1d1f7] dark:bg-black">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
         Problems We <span className='text-blue-500'> Aim to Solve</span>
@@ -122,7 +122,7 @@ const SystemDesign: React.FC = () => {
     </section>
 
 
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-[#d1d1f7] dark:bg-black">
         <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[40rem] lg:py-16 lg:flex-row lg:items-center">
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
@@ -198,7 +198,7 @@ const SystemDesign: React.FC = () => {
 
     {/* hld */}
 
-    <section className="bg-white dark:bg-gray-900 ">
+    <section className="bg-[#F8E8EE] dark:bg-black ">
       <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
         <h2 className="max-w-2xl mx-auto text-5xl font-semibold tracking-tight text-gray-800 xl:text-6xl dark:text-white">
           Glocal High Level{" "}
@@ -228,9 +228,9 @@ const SystemDesign: React.FC = () => {
     {/* ---flowchart */}
 
 
-    <section className="p-4 lg:p-8 dark:bg-blue-1500 dark:text-gray-100">
-    <div className="container mx-8 space-y-8 lg:space-y-0 flex flex-col-reverse lg:flex-row">
-        <div className="flex flex-col justify-center p-6 dark:bg-gray-900 lg:w-2/3"> {/* Adjusted width here */}
+    <section className="p-4 lg:p-8 dark:bg-blue-1500 dark:text-gray-100 bg-[#F8E8EE]">
+    <div className="container mx-8 space-y-8 lg:space-y-0 flex flex-col-reverse lg:flex-row rounded-md">
+        <div className="flex flex-col justify-center p-6 dark:bg-gray-900 lg:w-2/3 rounded-xl"> {/* Adjusted width here */}
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Application <span className='text-blue-500'>Workflow</span></h1>
                   <div className="mt-2">
                     <span className="inline-block w-40 h-1 bg-blue-500 rounded-full" />
@@ -262,7 +262,7 @@ const SystemDesign: React.FC = () => {
 {/* polling non polling web sockets */}
 
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#F8E8EE] dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
     <div className="flex items-center justify-between">
     <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Polling, Long Polling & <span className='text-blue-500'>Websockets</span></h1>
@@ -346,7 +346,7 @@ const SystemDesign: React.FC = () => {
 
 {/* databse design */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#F1EAFF] dark:bg-black">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
         Database <span className='text-blue-500'> Design</span>
@@ -411,7 +411,7 @@ const SystemDesign: React.FC = () => {
 
 {/* Final hld design */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#F1EAFF] dark:bg-black">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
        Final High Level <span className='text-blue-500'>Design</span>
@@ -469,7 +469,7 @@ const SystemDesign: React.FC = () => {
 
 {/* sequence diagram */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#FAF3F0] dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
   <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Sequence <span className='text-blue-500'>Diagram</span></h1>
         <div className="mt-2">
@@ -495,7 +495,7 @@ const SystemDesign: React.FC = () => {
 
 
     </div>
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-[#FAF3F0] dark:bg-black">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
           <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
            The Role of Sequence Diagrams in System Design and Interaction Analysis
@@ -522,7 +522,7 @@ const SystemDesign: React.FC = () => {
 
 {/* sequence diagram */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#FAF3F0] dark:bg-black">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
         Scalability & <span className='text-blue-500'>Load Balancing</span>
@@ -589,7 +589,7 @@ const SystemDesign: React.FC = () => {
 {/* Glocal interface design */}
 
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#E1F0DA] dark:bg-black">
       <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
         <h2 className="max-w-2xl mx-auto text-5xl font-semibold tracking-tight text-gray-800 xl:text-6xl dark:text-white">
           Glocal  Interface {" "}
@@ -630,7 +630,7 @@ const SystemDesign: React.FC = () => {
 
 {/* sections 1 div 1 */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#E1F0DA] dark:bg-black">
   
   <div className="container px-6 py-10 mx-auto">
   <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Understanding <span className='text-blue-500'>Application Layers</span></h1>
@@ -665,7 +665,7 @@ const SystemDesign: React.FC = () => {
 
 {/* section2 - div2 */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-white dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Understanding <span className='text-blue-500'>User Persona</span></h1>
         <div className="mt-2">
@@ -706,7 +706,7 @@ const SystemDesign: React.FC = () => {
         </div>
     </div> */}
 
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-black">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
           <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
           The Vital Role of User Personas
@@ -736,7 +736,7 @@ const SystemDesign: React.FC = () => {
 
 {/* not included user data flow heading */}
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#E5D4FF] dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
   <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Users <span className='text-blue-500'>Data Flow</span></h1>
       <div className="mt-2">
@@ -769,7 +769,7 @@ const SystemDesign: React.FC = () => {
 
 
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#E5D4FF] dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
     <div className="lg:flex lg:-mx-6">
       <div className="lg:w-3/4 lg:px-6">
@@ -797,7 +797,7 @@ const SystemDesign: React.FC = () => {
 </section>
 
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#E5D4FF] dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
     <div className="lg:flex lg:-mx-6">
       <div className="lg:w-3/4 lg:px-6">
@@ -828,7 +828,7 @@ const SystemDesign: React.FC = () => {
 
 
 
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-[#e3f3ff] dark:bg-black">
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Understanding <span className='text-blue-500'>Wireframes</span></h1>
         <div className="mt-2">
@@ -859,7 +859,7 @@ const SystemDesign: React.FC = () => {
       </div>
     </div>
 
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-[#e3f3ff] dark:bg-black">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
           <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
           The Role of Mid-Fidelity Wireframes in Visualization and Iterative Refinement

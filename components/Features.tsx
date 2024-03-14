@@ -2,12 +2,13 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
+import Allfeatures from "@/components/Allfeatures"
  
 import  PinContainer  from "@/components/ui/3d-pin";
 
 const Features = () => {
     return (
-    <section className="bg-white dark:bg-gray-900 h-[12rem] md:h-[25rem] sm:h-[50rem] hidden lg:block">
+    <section className=" dark:bg-black md:h-[25rem] sm:h-[50rem] hidden lg:block">
 
     <LampContainer className=''>
       <motion.h1
@@ -18,10 +19,10 @@ const Features = () => {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-12 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
        Boost Your Productivity <br /> Start Using Our App Today  <br/> <br/>
-       <p className='text-2xl'>Explore Our Features</p>
+      
       </motion.h1>
     </LampContainer>
     </section>

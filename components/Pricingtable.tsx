@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricingtable = () => {
   return (
-    <div className='hidden lg:block'>
+    <div className='hidden lg:block pb-40'>
          <>
         {/* component */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />

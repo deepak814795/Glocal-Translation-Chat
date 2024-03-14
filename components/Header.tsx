@@ -26,9 +26,9 @@ const Header = async () => {
   //console.log(session);
 
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-gray-900">
+    <header className="sticky top-0 z-50 bg-white dark:bg-black">
         <nav className="flex flex-col sm:flex-row items-center p-5 pl-2 bg-white
-        dark:bg-gray-900 max-w-7xl mx-auto">
+        dark:bg-black max-w-7xl mx-auto">
 
 
             {/* <Logo /> */}

@@ -21,6 +21,10 @@ import SwipeUpPrompt from "@/components/ui/swipeUpPrompt";
 import { StickyScrollRevealDemo } from "@/components/Solveproblemsscroll";
 import Faq from "@/components/Faq"
 import Pricingtable from "@/components/Pricingtable";
+import Sliders from "@/components/Sliders_set/Sliders";
+import Feedback from "@/components/Feedback"
+import Allfeatures from "@/components/Allfeatures";
+import Newproblemsolve from "@/components/Newproblemsolve"
 
 
 
@@ -40,7 +44,7 @@ export default function Home() {
 
       {/* <Hero/> */}
       
-      <div className="relative isolate pt-14 dark:bg-gray-900">
+      <div className="relative isolate pt-14 dark:bg-black">
           <div className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
           aria-hidden="true">
             <div
@@ -53,18 +57,19 @@ export default function Home() {
             />
           </div>
 
+
           
 
           <div className="py-12 sm:py-20 lg:pb-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                  Chat With Anyone Anywhere!
-                </h1>
+                <span className="text-4xl tracking-tight sm:text-6xl">
+                 <span className="font-bold">Introducing  Glocal  AI</span> <br/> <span className="text-3xl">Here Every Language Finds It&apos;s Voice</span>
+                </span>
                 <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                  You speak your language, they speak their language.{" "}
+                Lost in Translation? Find Your Voice with Us!{" "}
                   <span className="text-indigo-600 dark:text-indigo-500">
-                    Let AI handle the translation.
+                    Let AI handle the Translation.
                   </span>
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -152,18 +157,26 @@ export default function Home() {
 
           {/* <AboutApp /> */}
 
-          
-          <Problemwesolve />
+          <Newproblemsolve/>
+          {/* <Problemwesolve /> */}
           <Features />
-          <StickyScrollRevealDemo/>
+          {/* <StickyScrollRevealDemo/> */}
+
+          <Allfeatures/>
+
+          <Sliders/>
 
           <Pricingtable/>
           
-          <Ourcomponents />
+          
+          
           <Learn />
-          <ClientsUsingSolution/>
+          <Ourcomponents />
+          
+          {/* <ClientsUsingSolution/> */}
           <Faq/>
-          <Testimonials />
+          <Feedback/>
+          {/* <Testimonials /> */}
 
          
           {/* <Blob top="97%" left="60%" width="40" height="33rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={30}/>  */}

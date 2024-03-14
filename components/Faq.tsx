@@ -6,7 +6,7 @@ import Link from "next/link"
 const Faq = () => {
   return (
     <div>
-        <div className="relative w-full bg-white px-6 pt-10 pb-8 mt-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-2xl sm:rounded-lg sm:px-10 dark:bg-gray-900">
+        <div className="relative w-full bg-white px-6 pt-10 pb-8 mt-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-2xl sm:rounded-lg sm:px-10 dark:bg-black">
   <div className="mx-auto px-5">
     <div className="flex flex-col items-center">
       <h2 className="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl ">

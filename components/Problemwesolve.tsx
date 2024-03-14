@@ -30,7 +30,7 @@ const Problemwesolve = () => {
     <div className=''>
 
       <div className="flex flex-col items-center justify-center h-[2rem] pb-[-2rem] justify-center items-center">
-            <TypewriterEffectSmooth words={words} />
+            {/* <TypewriterEffectSmooth words={words} /> */}
       </div>
       <div className='hidden lg:block'>
         <Test/>
