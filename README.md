@@ -21,6 +21,7 @@ There are over 7,000 languages spoken today but despite the diversity of languag
 - [Firebase](https://firebase.google.com/) & [Firestore](https://firebase.google.com/docs/firestore) - Firebase is a mobile and web application development platform. Firestore is a NoSQL cloud database.
 - [Stripe](https://stripe.com/) - A platform for online payment processing.
 - [Zustand](https://zustand.surge.sh/) - A small, fast, and scalable state management library for React.
+- [Docker](https://www.docker.com/) - Docker is a platform designed to help developers build, share, and run container applications.
 
 ## Application Workflow
 
@@ -29,7 +30,8 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 ## Some Screenshots
 
 ### ***Homepage***
-![Screenshot_4-3-2024_2234_glocal-chat-deepak-kushwaha vercel app-overlay-overlay-overlay](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/6c969562-5f8a-4bbd-a45d-f2595250b0c9)
+![i2 (1)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/95d104c7-e64c-4043-ac08-7de0f2dde951)
+
 
 ### ***Pricing Page***
 
