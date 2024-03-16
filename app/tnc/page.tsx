@@ -16,14 +16,14 @@ export default function Component() {
   };
 
   return (
-    <div className="flex flex-col h-screen">
-      <header className="px-4 py-6 bg-gray-900 text-white">
+    <div className=" font-mono flex flex-col h-screen dark:text-[#d1d1f7]">
+      <header className="px-4 py-6 bg-gray-900 text-white dark:text-[#d1d1f7]">
         <h1 className="text-3xl font-bold">Terms and Conditions</h1>
       </header>
       <main className="flex-1 overflow-y-auto p-4 bg-gray-100 dark:bg-gray-800">
         <ScrollArea className="h-full bg-white p-6 rounded-md shadow dark:bg-gray-900">
         <section id="our-services">
-  <h2 className="font-bold">Our Services</h2>
+  <h2 className="font-bold text-blue-400">Our Services-</h2> <br/>
   <p>
     Welcome to our diverse range of services designed to cater to your unique requirements. At our
     company, we take pride in delivering high-quality solutions that span various industries and
@@ -50,8 +50,8 @@ export default function Component() {
 
 <br/>
 
-<section id="intellectual-property-rights">
-  <h2 className="font-bold">Intellectual Property Rights</h2>
+<section id="intellectual-property-rights ">
+  <h2 className="font-bold text-blue-400">Intellectual Property Rights-</h2> <br/>
   <p>
     Our company values intellectual property rights and is committed to respecting and protecting
     the intellectual property of others. This includes but is not limited to trademarks, patents,
@@ -70,7 +70,7 @@ export default function Component() {
 <br/>
 
 <section id="user-representations">
-  <h2 className="font-bold">User Representations</h2>
+  <h2 className="font-bold text-blue-400">User Representations-</h2> <br/>
   <p>
     Users of our services are expected to adhere to certain representations to ensure a positive and
     lawful experience for everyone. By accessing and using our services, users represent and warrant
@@ -86,7 +86,7 @@ export default function Component() {
 </section>
 
 <section id="purchase-and-payments">
-  <h2 className="font-bold">Purchase and Payments</h2>
+  <h2 className="font-bold text-blue-400">Purchase and Payments-</h2> <br/>
   <p>
     Our services may include features that allow users to make purchases or payments. By engaging in
     such transactions, users agree to the following terms:
@@ -101,7 +101,7 @@ export default function Component() {
 </section>
 
 <section id="cancellations">
-  <h2 className="font-bold">Cancellations</h2>
+  <h2 className="font-bold text-blue-400">Cancellations-</h2> <br/>
   <p>
     We understand that situations may arise where you need to cancel a service or product. Our cancellation policies
     are designed to provide clarity and fairness to both our users and our business. Please take a moment to review the
@@ -131,7 +131,7 @@ export default function Component() {
 
 
 <section id="prohibited-activities">
-  <h2 className="font-bold">Prohibited Activities</h2>
+  <h2 className="font-bold text-blue-400">Prohibited Activities-</h2> <br/>
   <p>
     We take the integrity and safety of our platform seriously. Users are expected to adhere to a set of guidelines to
     ensure a positive and secure experience for everyone. The following activities are strictly prohibited on our
@@ -169,7 +169,7 @@ export default function Component() {
 </section>
 
 <section id="contribution-license">
-  <h2 className="font-bold">Contribution License</h2>
+  <h2 className="font-bold text-blue-400">Contribution License-</h2> <br/>
   <p>
     We appreciate and welcome contributions from our users. By submitting any form of contribution, including but not
     limited to code, documentation, or feedback, you agree to the following terms:
@@ -201,7 +201,7 @@ export default function Component() {
 </section>
 
 <section id="user-data-privacy">
-  <h2 className="font-bold">User Data Privacy</h2>
+  <h2 className="font-bold text-blue-400">User Data Privacy-</h2> <br/>
   <p>
     We prioritize the privacy and security of user data on our platform. The following outlines our approach to handling
     user information:
@@ -233,7 +233,7 @@ export default function Component() {
 </section>
 
 <section id="governing-laws">
-  <h2 className="font-bold">Governing Laws</h2>
+  <h2 className="font-bold text-blue-400">Governing Laws-</h2> <br/>
   <p>
     The terms and conditions outlined herein are governed by and construed in accordance with the laws of [Your
     Jurisdiction]. Any disputes arising from these terms and conditions will be subject to the exclusive jurisdiction of
@@ -247,7 +247,7 @@ export default function Component() {
 </section>
 
 <section id="dispute-resolution">
-  <h2 className="font-bold">Dispute Resolution</h2>
+  <h2 className="font-bold text-blue-400">Dispute Resolution-</h2> <br/>
   <p>
     In the event of any dispute or claim arising out of or in connection with these terms and conditions, users agree to
     attempt to resolve the matter through negotiation and good faith discussions.
@@ -269,7 +269,7 @@ export default function Component() {
 </section>
 
 <section id="disclaimer">
-  <h2 className="font-bold">Disclaimer</h2>
+  <h2 className="font-bold text-blue-400">Disclaimer-</h2> <br/>
   <p>
     The information contained in our terms and conditions is for general information purposes only. The information is
     provided by [Your Company] and while we endeavor to keep the information up to date and correct, we make no

@@ -2,7 +2,6 @@
 "use client"
 import * as React from 'react'
 import Test from '@/components/Test'
-import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import Image from "next/image"
 import imagethree from "@/images/customchatimage/imagethree.png"
 

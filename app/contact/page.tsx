@@ -30,7 +30,7 @@ const Page = () => {
 
 
   return (
-    <section className="min-h-screen bg-cover" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D")'}}>
+    <section className=" font-mono dark:text-[#d1d1f7] min-h-screen bg-cover" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D")'}}>
       <div className="flex flex-col min-h-screen bg-black/60">
         <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
           <div className="flex-1 lg:flex lg:items-center lg:-mx-6">

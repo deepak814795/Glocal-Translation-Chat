@@ -32,7 +32,7 @@ const TenthSection = () => {
   }
 
   return (
-    <div className="md:pb-20 flex flex-col items-center justify-center pb-32 pt-40 overflow-hidden">
+    <div className="md:pb-20 flex flex-col items-center justify-center pb-32 pt-40 overflow-hidden font-mono">
       <Slider {...settings} className="w-full">
 
         <>
@@ -49,7 +49,7 @@ const TenthSection = () => {
               />
             </div>
             <div className="text-lg font-medium md:text-3xl text-[#1b224b] md:text-center md:w-3/5">
-            The design is consistent throughout, creating a cohesive and visually pleasing experience. It&apos;s easy to understand and doesn&apos;t leave me guessing. Everything feels well-organized.
+            The design is consistent throughout, creating a cohesive and visually pleasing experience. It&apos;s easy to understand and doesn&apos;t leave me guessing.
             </div>
 
             <div className="flex items-center md:justify-center space-x-4 md:space-x-0">
@@ -89,7 +89,7 @@ const TenthSection = () => {
               />
             </div>
             <div className="text-lg font-medium md:text-3xl text-[#1b224b] md:text-center md:w-3/5">
-              Getting things done in the app is straightforward. The design prioritizes functionality, making it easy to accomplish  tasks effectively. 
+              Getting things done in the app is straightforward. The design prioritizes functionality, making it easy to use. 
             </div>
 
             <div className="flex items-center md:justify-center space-x-4 md:space-x-0">
@@ -210,7 +210,7 @@ const TenthSection = () => {
               />
             </div>
             <div className="text-lg font-medium md:text-3xl text-[#1b224b] md:text-center md:w-3/5">
-            I&apos;ve never experienced any glitches or hiccups. The app is consistently reliable, and I can always count on it to perform smoothly. It just works!
+            I&apos;ve never experienced any glitches or hiccups. The app is consistently reliable, and I can always count on it to perform smoothly.
             </div>
 
             <div className="flex items-center md:justify-center space-x-4 md:space-x-0">

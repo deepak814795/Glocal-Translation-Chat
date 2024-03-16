@@ -1,18 +1,17 @@
 import { ExternalLink } from "lucide-react";
-import Problemwesolve from "@/components/Problemwesolve";
 import Link from  "next/link"
-
+import Problemwesolve from "@/components/Problemwesolve";
 
 const NinthSection = () => {
   return (
     <div className="flex items-center justify-center pb-10 ">
-      <div className="md:w-5/6 md:rounded-[80px] dark:bg-[#111019] bg-[#d1d1f7] items-center justify-center flex w-screen">
+      <div className="md:w-5/6 md:rounded-[80px] dark:bg-slate-950 bg-[#d1d1f7] items-center justify-center flex w-screen">
         <div className="md:py-40 py-20 flex flex-col">
           <div className="flex text-white flex-col justify-center items-center space-y-10">
-            <div className="text-4xl md:text-7xl text-center text-black dark:text-blue-300 ">
+            <div className="text-4xl md:text-7xl text-center text-blue-900 font-semibold font-mono dark:text-blue-300 ">
             Solving the Language Puzzle
             </div>
-            <div className="text-xl text-gray-500 md:text-3xl text-center px-10 md:w-1/2 font-light lg:w-3/4">
+            <div className="text-xl dark:text-[#d1d1f7] text-blue-950 md:text-3xl text-center px-10 md:w-1/2 font-light lg:w-3/4 font-mono sm:w-full">
             Glocal is your go-to translation and chat app, effortlessly translating your messages into any language worldwide. Seamlessly communicate with anyone, anywhere, as messages are automatically converted to both sender and receiver&apos;s preferred languages. Say goodbye to language barriers and hello to seamless conversations.
             </div>
 

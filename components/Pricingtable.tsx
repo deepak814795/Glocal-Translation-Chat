@@ -14,14 +14,14 @@ const Pricingtable = () => {
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
         />
-        <div className="min-h-screen flex justify-center items-center">
+        <div className="min-h-screen flex justify-center items-center font-mono">
             <div className="">
             <div className="text-center font-semibold">
                 <h1 className="text-5xl">
                 <span className="text-blue-700 tracking-wide">Flexible </span>
                 <span>Plans</span>
                 </h1>
-                <p className="pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full">
+                <p className="dark:text-[#d1d1f7] pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full">
                 Choose a plan that works best for you and
                 <br /> your team.
                 </p>
@@ -46,7 +46,7 @@ const Pricingtable = () => {
                     <p className="font-semibold text-gray-400 text-left pt-5">
                     <span className="material-icons align-middle">done</span>
                     <span className="pl-2">
-                        2 Participant limit per group chat
+                        2 Participant per group chat
                     </span>
                     </p>
                     <p className="font-semibold text-gray-400 text-left pt-5">
@@ -90,35 +90,35 @@ const Pricingtable = () => {
                 <hr className="mt-4 border-1 border-gray-600" />
                 <div className="pt-8">
                     <p className="font-semibold text-gray-400 text-left">
-                    <span className="material-icons align-middle">done</span>
+                    <span className="material-icons align-middle text-green-500">done</span>
                     <span className="pl-2 text-white">
                         Unlimited Messages in Chats
                     </span>
                     </p>
                     <p className="font-semibold text-gray-400 text-left pt-5">
-                    <span className="material-icons align-middle">done</span>
+                    <span className="material-icons align-middle text-green-500">done</span>
                     <span className="pl-2 text-white">
                        Unlimited Members in Groups
                     </span>
                     </p>
                     <p className="font-semibold text-gray-400 text-left pt-5">
-                    <span className="material-icons align-middle">done</span>
+                    <span className="material-icons align-middle text-green-500">done</span>
                     <span className="pl-2 text-white">
                        20+ languages support
                     </span>
                     </p>
 
                     <p className="font-semibold text-gray-400 text-left pt-5">
-                    <span className="material-icons align-middle">done</span>
+                    <span className="material-icons align-middle text-green-500">done</span>
                     <span className="pl-2 text-white">
                        Unlimited groups supported
                     </span>
                     </p>
 
                     <p className="font-semibold text-gray-400 text-left pt-5">
-                    <span className="material-icons align-middle">done</span>
+                    <span className="material-icons align-middle text-green-500">done</span>
                     <span className="pl-2 text-white">
-                       Instant support resonse
+                       Instant support response
                     </span>
                     </p>
                     <a href="/pricing" className="">

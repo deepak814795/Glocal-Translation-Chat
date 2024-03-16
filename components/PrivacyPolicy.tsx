@@ -16,7 +16,7 @@ export default function Component() {
   };
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen dark:text-[#d1d1f7] font-mono">
       <header className="px-4 py-6 bg-gray-900 text-white">
         <h1 className="text-3xl font-bold">Privacy Policy</h1>
       </header>
@@ -25,7 +25,7 @@ export default function Component() {
        
 
   <section id="information-collection">
-  <h2 className="font-bold">Information Collection</h2>
+  <h2 className="font-bold text-blue-400">Information Collection</h2>
   <p>
     We collect personal information to enhance and personalize your experience with our services.
   </p>
@@ -55,7 +55,7 @@ export default function Component() {
 
 
 <section id="information-usage">
-  <h2 className="font-bold">Information Usage</h2>
+  <h2 className="font-bold text-blue-400">Information Usage</h2>
   <p>
     We use the information we collect for various purposes to provide, maintain, and improve our services.
   </p>
@@ -87,7 +87,7 @@ export default function Component() {
 
 
 <section id="data-security">
-  <h2 className="font-bold">Data Security</h2>
+  <h2 className="font-bold text-blue-400">Data Security</h2>
   <p>
     We prioritize the security of your data and have implemented measures to safeguard it from unauthorized access,
     disclosure, alteration, and destruction. Here&apos;s an overview of our data security practices:
@@ -117,7 +117,7 @@ export default function Component() {
 
 
 <section id="cookies">
-  <h2 className="font-bold">Cookies</h2>
+  <h2 className="font-bold text-blue-400">Cookies</h2>
   <p>
     Our website uses cookies to enhance your browsing experience and provide personalized services. Cookies are small text
     files stored on your device that help us analyze website usage, remember preferences, and improve functionality.
@@ -143,7 +143,7 @@ export default function Component() {
 
 
 <section id="sharing-information">
-  <h2 className="font-bold">Sharing Your Information</h2>
+  <h2 className="font-bold text-blue-400">Sharing Your Information</h2>
   <p>
     At [Your Company Name], we take your privacy seriously. We do not sell, rent, or trade your personal information to
     third parties for marketing or promotional purposes.
@@ -174,7 +174,7 @@ export default function Component() {
 
 
 <section id="data-theft">
-  <h2 className="font-bold">Data Theft Prevention</h2>
+  <h2 className="font-bold text-blue-400">Data Theft Prevention</h2>
   <p>
     Protecting your data is a top priority for us at [Your Company Name]. We employ advanced security measures to
     safeguard your personal information from unauthorized access, disclosure, alteration, and destruction.
@@ -204,7 +204,7 @@ export default function Component() {
 
 
 <section id="contribution-license">
-  <h2 className="font-bold">Contribution License</h2>
+  <h2 className="font-bold text-blue-400">Contribution License</h2>
   <p>
     We appreciate and welcome contributions from our users. By submitting any form of contribution, including but not
     limited to code, documentation, or feedback, you agree to the following terms:
@@ -236,7 +236,7 @@ export default function Component() {
 </section>
 
 <section id="user-data-privacy">
-  <h2 className="font-bold">User Data Privacy</h2>
+  <h2 className="font-bold text-blue-400">User Data Privacy</h2>
   <p>
     We prioritize the privacy and security of user data on our platform. The following outlines our approach to handling
     user information:
@@ -268,7 +268,7 @@ export default function Component() {
 </section>
 
 <section id="data-theft">
-  <h2 className="font-bold">Data Theft Prevention</h2>
+  <h2 className="font-bold text-blue-400">Data Theft Prevention</h2>
   <p>
     Protecting your data is a top priority for us at [Your Company Name]. We employ advanced security measures to
     safeguard your personal information from unauthorized access, disclosure, alteration, and destruction.
@@ -298,7 +298,7 @@ export default function Component() {
 
 
 <section id="changes-to-privacy-policy">
-  <h2 className="font-bold">Changes to Privacy Policy</h2>
+  <h2 className="font-bold text-blue-400">Changes to Privacy Policy</h2>
   <p>
     We reserve the right to update or modify this Privacy Policy at any time without prior notice. Changes to the
     Privacy Policy will be effective when posted on this page. It&apos;s advisable to review this page periodically for any

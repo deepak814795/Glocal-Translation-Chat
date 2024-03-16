@@ -6,11 +6,11 @@ interface IconProps {
 }
 export default function Component() {
     return (
-        <main className="dark:bg-gray-900">
+        <main className="dark:bg-black font-mono dark:text-[#d1d1f7] rounded-4xl">
           <section className="relative w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 text-white">
             <Image
               alt="Background"
-              className="absolute inset-0 object-cover w-full h-full"
+              className="absolute inset-0 object-cover w-full h-full rounded-6xl"
               height="1080"
               src="https://images.unsplash.com/photo-1682685797828-d3b2561deef4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               style={{
@@ -19,9 +19,9 @@ export default function Component() {
               }}
               width="1920"
             />
-            <div className="container px-4 md:px-6 relative">
-              <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-                <div className="flex flex-col items-center space-y-4 text-center">
+            <div className="container px-4 md:px-6 relative rounded-3xl">
+              <div className="grid grid-cols-1 md:grid-cols-2 items-center rounded-3xl">
+                <div className="flex flex-col items-center space-y-4 text-center rounded-3xl">
                   <div className="space-y-2">
                     <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text">
                       Our Mission & Vision
@@ -34,7 +34,8 @@ export default function Component() {
               </div>
             </div>
           </section>
-          <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800">
+          
+          <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-black">
             <div className="container px-4 md:px-6">
               <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
                 <div className="flex flex-col justify-center space-y-4">
@@ -65,7 +66,7 @@ export default function Component() {
             </div>
           </section>
 
-          <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-900">
+          <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-slate-900">
             <div className="container px-4 md:px-6">
               <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
                 <Image
@@ -97,7 +98,7 @@ export default function Component() {
             </div>
           </section>
 
-          <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800">
+          <section className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-slate-950">
             <div className="container px-4 md:px-6">
               <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
                 <div className="flex flex-col justify-center space-y-4">

@@ -5,26 +5,23 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/auth";
 import DocumentationPage from './contact/page'
 import Features from "@/components/Features";
-import Testimonials from "@/components/Testimonials";
-import Problemwesolve from "@/components/Problemwesolve";
 import Ourcomponents from "@/components/Ourcomponents";
 import Footer from "@/components/Footer";
 import Blob from '@/components/Blob'
 import ScrollToTop from "react-scroll-to-top";
-import AboutApp from "@/components/AboutApp";
 import { Button } from "@/components/ui/button"
 import Learn from '@/components/Learn'
 import Sparkles from "@/components/ui/Sparkles";
-import ClientsUsingSolution from "@/components/ClientsUsingSolution"
 import Hero from "@/components/Hero"
 import SwipeUpPrompt from "@/components/ui/swipeUpPrompt";
-import { StickyScrollRevealDemo } from "@/components/Solveproblemsscroll";
 import Faq from "@/components/Faq"
 import Pricingtable from "@/components/Pricingtable";
 import Sliders from "@/components/Sliders_set/Sliders";
 import Feedback from "@/components/Feedback"
 import Allfeatures from "@/components/Allfeatures";
 import Newproblemsolve from "@/components/Newproblemsolve"
+import Globehero from "@/components/Globehero"
+import Appfaqs from "@/app/faqs/page"
 
 
 
@@ -58,9 +55,10 @@ export default function Home() {
           </div>
 
 
-          
+          {/* commenting it and moving it in a component herosection, this hero section has been imported in globe_hero section
+          that i will render as my hero section */}
 
-          <div className="py-12 sm:py-20 lg:pb-32">
+          {/* <div className="py-12 sm:py-20 lg:pb-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
                 <span className="text-4xl tracking-tight sm:text-6xl">
@@ -73,7 +71,7 @@ export default function Home() {
                   </span>
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
-                  {/* Link component here */}
+                
 
                   <div className="h-[10rem]  flex flex-col items-center justify-center overflow-hidden rounded-md">
                     <div className="w-full absolute inset-0 h-screen">
@@ -132,53 +130,47 @@ export default function Home() {
 
               <SwipeUpPrompt/>
 
-              <div className="hidden lg:block">
-                <Hero />
-              </div>
-              
+
               
 
-              {/* <div className="mt-16 flow-root sm:mt-24">
-                <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-                 
-                  <Image
-                    unoptimized
-                    src={DemoGif}
-                    alt="App screenshot"
-                    width={2432}
-                    height={1442}
-                    className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-                  />
-                </div>
-              </div> */}
+
+              
+              
 
             </div>
+          </div> */}
+
+          {/* commenting it and moving it in a component herosection, this hero section has been imported in globe_hero section
+              that i will render as my hero section */}
+
+
+
+          {/* Rendering globehero that contain globe + hero section */}
+
+          <Globehero/>
+
+          <div className="hidden lg:block">
+                <Hero />
           </div>
 
-          {/* <AboutApp /> */}
-
           <Newproblemsolve/>
-          {/* <Problemwesolve /> */}
           <Features />
-          {/* <StickyScrollRevealDemo/> */}
-
           <Allfeatures/>
-
           <Sliders/>
-
           <Pricingtable/>
-          
-          
-          
           <Learn />
           <Ourcomponents />
           
-          {/* <ClientsUsingSolution/> */}
-          <Faq/>
-          <Feedback/>
-          {/* <Testimonials /> */}
 
-         
+          <div className="block lg:hidden">
+           <Faq/>
+          </div>
+
+          <div className="hidden lg:block">
+           <Appfaqs/>
+          </div>
+          
+          <Feedback/>
           {/* <Blob top="97%" left="60%" width="40" height="33rem" clipPath="..." gradientFrom="#ff80b5" gradientTo="#9089fc" opacity={30}/>  */}
           <Footer />
 

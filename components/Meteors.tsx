@@ -11,7 +11,7 @@ function MeteorsDemo() {
 
     <div className="w-100 h-100 relative max-w-xs">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+      <div className="relative shadow-xl dark:bg-[#040D12] bg-[#040D12] border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
         <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ function MeteorsDemo() {
            User Authentication
         </h1>
 
-        <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+        <p className="font-normal text-base text-[#d1d1f7] mb-4 relative z-50 dark:text-[#d1d1f7]">
         Ensuring the utmost security and convenience, our User Authentication Component is seamlessly integrated with Firebase Admin. This integration allows for a robust authentication system managed by Firebase, offering features such as secure user registration, login, and authorization.
         </p>
 
@@ -73,7 +73,7 @@ function MeteorsDemo() {
 
     <div className="w-100 h-100 relative max-w-xs">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+      <div className="relative shadow-xl dark:bg-[#040D12] bg-[#040D12] border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
         <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ function MeteorsDemo() {
           Subscription Provider
         </h1>
 
-        <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+        <p className="font-normal text-base text-[#d1d1f7] mb-4 relative z-50 dark:text-[#d1d1f7]">
         The Subscription Management Component ensures a hassle-free and flexible approach to user subscriptions. Seamlessly integrated with external payment gateways Stripe, it simplifies secure transactions and also managing of user dashboard for PRO membership plans.
         </p>
 
@@ -132,7 +132,7 @@ function MeteorsDemo() {
 
     <div className="w-100 h-100 relative max-w-xs">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+      <div className="relative shadow-xl dark:bg-[#040D12] bg-[#040D12] border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
         <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ function MeteorsDemo() {
         Security And Compliance
         </h1>
 
-        <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+        <p className="font-normal text-base text-[#d1d1f7] mb-4 relative z-50 dark:text-[#d1d1f7]">
         Ensuring the utmost security and privacy of user data is paramount in our application. By incorporating robust message encryption on the database, our application prioritizes the privacy and security of user communications, aligning with the highest standards of data protection.
         </p>
 
@@ -191,7 +191,7 @@ function MeteorsDemo() {
 
     <div className="w-90 h-95 relative max-w-xs">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+      <div className="relative shadow-xl dark:bg-[#040D12] bg-[#040D12] border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
         <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -213,7 +213,7 @@ function MeteorsDemo() {
           Translation Engine
         </h1>
 
-        <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+        <p className="font-normal text-base text-[#d1d1f7] mb-4 relative z-50 dark:text-[#d1d1f7]">
         The Translation Engine Component empowers our app with advanced language translation services powered by Aritficial Intelligence and Machine Learning Algorithms. In real-time, it translates messages, fostering inclusive communication among users from diverse linguistic backgrounds.
         </p>
 
@@ -251,7 +251,7 @@ function MeteorsDemo() {
 
     <div className="w-100 h-100 relative max-w-xs">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+      <div className="relative shadow-xl dark:bg-[#040D12] bg-[#040D12] border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
         <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -273,7 +273,7 @@ function MeteorsDemo() {
          Stripe Payments
         </h1>
 
-        <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+        <p className="font-normal text-base text-[#d1d1f7] mb-4 relative z-50 dark:text-[#d1d1f7]">
         While we offer certain services for free, they come with limitations. To enhance user experience, we provide a fast, efficient, and secure payment method using the Stripe payment gateway. Users can purchase their Pro membership plans by completing the payment process through Stripe.
         </p>
 
@@ -311,7 +311,7 @@ function MeteorsDemo() {
 
     <div className="w-100 h-100 relative max-w-xs">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
-      <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+      <div className="relative shadow-xl dark:bg-[#040D12] bg-[#040D12] border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
         <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +333,7 @@ function MeteorsDemo() {
           Google Cloud AI
         </h1>
 
-        <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+        <p className="font-normal text-base text-[#d1d1f7] mb-4 relative z-50 dark:text-[#d1d1f7]">
         Google Cloud Translation AI is a service provided by Google Cloud that allows developers to integrate machine learning-based language translation capabilities into their applications. This AI enables the automatic translation of text from one language to another, making it useful.
         </p>
 

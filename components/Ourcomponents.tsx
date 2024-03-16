@@ -10,10 +10,10 @@ const Ourcomponents = () => {
         //Explore the Essential Components Powering Our App!
         <section className="bg-white dark:bg-black pt-[5rem]">
 
-          <div className="container px-6 py-10 mx-auto">
-          <h3 className="max-w-2xl mx-auto text-5xl font-semibold tracking-tight text-gray-800 xl:text-6xl dark:text-white">
-          Explore Our {" "}
-          <span className="text-blue-500">Components</span>
+          <div className="container px-6 py-10 mx-auto font-mono ">
+          <h3 className="max-w-5xl mx-auto text-5xl font-semibold tracking-tight xl:text-6xl dark:text-[#d1d1f7] text-blue-900 flex flex-col">
+          Components of Glocal Integration
+          {/* <span className="text-blue-700">Components</span> */}
           </h3>
            
             {/* <p className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
