@@ -30,7 +30,8 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 ## Some Screenshots
 
 ### ***Homepage***
-![i2 (1)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/95d104c7-e64c-4043-ac08-7de0f2dde951)
+![ppp](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/0ceca9a0-6cf7-4fdb-a4f0-cee07fefb943)
+
 
 
 ### ***Pricing Page***
