@@ -15,9 +15,7 @@ const Sliders = () => {
         items-center
         text-3xl
         md:text-5xl
-        font-medium
-        
-        ">
+        font-medium">
           <h1 className="text-blue-950 dark:text-[#d1d1f7] font-mono">Glocal is favored by a widespread Global community of companies </h1>
 
         </div>

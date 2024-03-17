@@ -149,6 +149,24 @@ export default function Home() {
 
           <Globehero/>
 
+          <div className="
+        hidden lg:block
+        pt-60
+        text-[#2b1c50]
+        px-6
+        md:w-50%
+        mx-auto
+        text-center
+        flex
+        justify-center
+        items-center
+        text-7xl
+        md:text-7xl
+        font-semibold">
+          <h1 className="text-black dark:text-[#d1d1f7] font-mono">Explore the Possibilities of AI <span className="text-blue-700 dark:text-[#d1d1f7] font-mono">Chatting with Glocal</span> </h1>
+
+        </div>
+
           <div className="hidden lg:block">
                 <Hero />
           </div>
