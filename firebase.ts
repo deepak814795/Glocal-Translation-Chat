@@ -5,7 +5,7 @@ import { getFunctions }  from "firebase/functions"
 
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  apiKey:"AIzaSyBQ0pFknRwVttk2CuHV77NR_9ZADLpMggQ",
   authDomain: process.env.FIREBASE_AUTH_DOMAIN,
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID_FOR_FIREBASETS,
   storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
