@@ -3,14 +3,15 @@ import {getAuth} from "firebase/auth"
 import { getFirestore } from "firebase/firestore"
 import { getFunctions } from "firebase/functions"
 
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCJ7UZRjI-3q7vESt9UaPDF08DpYq-XKVo",
-    authDomain: "saas-chat-app-dc1dc.firebaseapp.com",
-    projectId: "saas-chat-app-dc1dc",
-    storageBucket: "saas-chat-app-dc1dc.appspot.com",
-    messagingSenderId: "785038743864",
-    appId: "1:785038743864:web:5ba952d842c507160309cd"
-  };
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID_FOR_FIREBASETS,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID
+};
 
 const app=getApps().length ? getApp() : initializeApp(firebaseConfig);
 const auth=getAuth(app);
