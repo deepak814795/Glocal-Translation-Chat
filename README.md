@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to our SaaS chat app developed using Next.js and TypeScript, bringing global communication to the next level with real-time translation powered by Google Cloud Artificial Intelligence services. The app operates on a tiered subscription model, providing both free and pro plans tailored to users' needs. Stripe integration is employed for seamless subscription handling.
+Welcome to our SaaS chat app developed using Next.js and TypeScript, bringing global communication to the next level with real-time translation powered by Google Cloud Artificial Intelligence services. The app operates on a tiered subscription model, providing both free and pro plans tailored to user's needs. Stripe integration is used for seamless subscription handling.
 
 ## Problem It Solves
 
