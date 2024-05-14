@@ -2,8 +2,9 @@
 ### Live Link - [https://glocal-chat-deepak-kushwaha.vercel.app/](https://glocal-chat-deepak-kushwaha.vercel.app/)
 
 ## Overview
+Glocal enables users to engage in conversations without the hindrance of language barriers and makes communication more accessible to individuals from different linguistic backgrounds.
 
-Welcome to our SaaS chat app developed using Next.js and TypeScript, bringing global communication to the next level with real-time translation powered by Google Cloud Artificial Intelligence services. The app operates on a tiered subscription model, providing both free and pro plans tailored to user's needs. Stripe integration is used for seamless subscription handling.
+Powered by Google Cloud Translation Hub and custom AutoML models. The app operates on a tiered subscription model, providing both free and pro plans tailored to user's needs. Stripe integration is used for seamless subscription handling.
 
 ## Problem It Solves
 
