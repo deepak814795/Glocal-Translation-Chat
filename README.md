@@ -78,7 +78,7 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
  ![Screenshot (891)](https://github.com/deepak814795/saas-app-chat/assets/91387970/45716422-81c2-4a73-a873-f77e9962b910)
   
 ### ***Documentation page***
- ![Screenshot (912)](https://github.com/deepak814795/SaaS-Chat-App/assets/91387970/21556998-2bb3-4e85-aafc-5cb0f248980e)
+![Screenshot (1145)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/4596bcb1-d655-4788-8dbe-18f242a905d9)
 
 
 
