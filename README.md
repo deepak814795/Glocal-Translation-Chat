@@ -50,9 +50,9 @@ Upon registration, users receive unique identifiers from Firebase Authentication
 
 ### ***PRO vs FREE User***
 
-### ***PRO plan supports multiple languages while free supports only two languages.***
+### ***PRO plan supports multiple languages while free supports only 4 languages.***
 
- ![image (3)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/8c71db28-a9d1-478c-8a4e-3c50cfa86dd5)
+![312995650-8c71db28-a9d1-478c-8a4e-3c50cfa86dd5-overlay](https://github.com/deepak814795/Glocal-Nextra-Private/assets/91387970/a943bdb7-f058-40fc-ac45-2c8562d7bbe5)
 
 ### ***In Free plan users can only have two members per room while PRO plan supports unlimited members***
  ![image (1)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/4f56b534-2118-4ca2-879a-935e215f191b)
