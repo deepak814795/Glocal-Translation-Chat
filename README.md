@@ -33,9 +33,6 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 ### ***Chat with real-time translation of messages***
  ![demo](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/68463564-cb0b-441c-a8db-883251734fc4)
 
-### ***Homepage***
-![ppp](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/0ceca9a0-6cf7-4fdb-a4f0-cee07fefb943)
-
 ### ***Pricing Page***
 
 ### ***Free User has access to only free features and has to pay to unlock all features.***
@@ -80,6 +77,8 @@ Upon registering or logging in, users are assigned unique identifiers by Firebas
 ### ***Documentation page***
 ![Screenshot (1145)](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/4596bcb1-d655-4788-8dbe-18f242a905d9)
 
+### ***Homepage***
+![ppp](https://github.com/deepak814795/Glocal-Translation-Chat/assets/91387970/0ceca9a0-6cf7-4fdb-a4f0-cee07fefb943)
 
 
 ### Thank you for visiting! If you have any questions or suggestions, feel free to contact!!
