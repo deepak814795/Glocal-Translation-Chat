@@ -1,4 +1,4 @@
-# GLOCAL- AI SaaS Chat App with Real-Time Translation
+# GLOCAL- AI Chat App with Real-Time Translation
 ### Live Link - [https://glocal-ai-deepak-kushwaha.vercel.app/](https://glocal-ai-deepak-kushwaha.vercel.app/)
 
 ## Overview
